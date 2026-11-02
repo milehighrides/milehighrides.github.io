@@ -2,7 +2,7 @@
  {
   "UID": "event_317247267@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T180354Z",
+  "DTSTAMP": "20261102T180950Z",
   "DTSTART": [
    "2026-11-07T09:45",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317230285@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T180354Z",
+  "DTSTAMP": "20261102T180950Z",
   "DTSTART": [
    "2026-11-11T08:30",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317246916@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T180354Z",
+  "DTSTAMP": "20261102T180950Z",
   "DTSTART": [
    "2027-01-01T08:00",
    false
