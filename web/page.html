@@ -52,7 +52,8 @@ button { font: inherit; color: inherit; }
 .brand .mark { color: var(--green); font-size: 14px; }
 .brand .alt { color: var(--fg-3); font-family: var(--mono); font-weight: 400; font-size: 11px; }
 .sub-btn { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 12px; border-radius: 6px; border: 1px solid var(--line-2); background: var(--panel); font-size: 12px; font-weight: 500; cursor: pointer; white-space: nowrap; }
-.sub-btn:hover { border-color: var(--green); color: var(--green); }
+.sub-btn:hover, .sub-btn:focus-visible { border-color: var(--green); background: var(--green); color: #000; }
+.sub-btn:hover .ic, .sub-btn:focus-visible .ic { color: #000; }
 .sub-btn .ic { color: var(--green); }
 
 /* Intro */
@@ -192,7 +193,7 @@ select { height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#" aria-label="Mile High Ride Calendar, top of page"><span class="mark">◉</span><span class="alt">39.74°N 104.99°W · 5,280′</span></a>
-    <button class="sub-btn" id="subOpen" type="button" aria-haspopup="dialog"><span class="ic">＋</span>Subscribe to the Calendar</button>
+    <button class="sub-btn" id="subOpen" type="button" aria-haspopup="dialog"><span class="ic">＋</span>Subscribe to Cal</button>
   </div>
 </header>
 
