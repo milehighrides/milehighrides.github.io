@@ -438,10 +438,15 @@ def main():
         "regular": curated.get("regular", []),
     }
     (SITE / "events.json").write_text(json.dumps(payload, indent=1, ensure_ascii=False))
+    for icon in (ROOT / "web" / "icons").iterdir():  # favicon files go at the site root
+        shutil.copy(icon, SITE / icon.name)
     page = (ROOT / "web" / "page.html").read_text()
     (SITE / "index.html").write_text(
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+        '<link rel="icon" href="favicon.ico" sizes="32x32">\n'
+        '<link rel="icon" href="favicon.svg" type="image/svg+xml">\n'
+        '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
         '<style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>\n'
         + page.replace("<header", "</head>\n<body>\n<header", 1) + "\n</body>\n</html>\n")
     counts = {c: sum(e["category"] == c for e in merged) for c in CATEGORIES}
