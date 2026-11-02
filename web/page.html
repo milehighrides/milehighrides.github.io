@@ -152,6 +152,16 @@ dialog::backdrop { background: rgba(0,0,0,.7); backdrop-filter: blur(3px); -webk
 .dlg-body { padding: 6px 18px 18px; display: grid; gap: 14px; }
 .dlg-body > p { margin: 0; color: var(--fg-2); font-size: 12px; }
 .field { display: grid; gap: 6px; font-size: 11px; color: var(--fg-3); }
+.picks { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.pick { display: flex; align-items: center; gap: 8px; height: 32px; padding: 0 10px; border-radius: 6px; border: 1px solid var(--line); background: none; color: var(--fg-3); font-size: 12px; cursor: pointer; text-align: left; }
+.pick .g { color: var(--fg-3); width: 12px; text-align: center; }
+.pick .box { margin-left: auto; font-size: 11px; color: var(--fg-3); }
+.pick[aria-pressed="true"] { border-color: var(--line-2); background: var(--raise); color: var(--fg); }
+.pick[aria-pressed="true"] .g { color: var(--c); }
+.pick[aria-pressed="true"] .box { color: var(--green); }
+.pick:hover { border-color: var(--fg-3); }
+.opts { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.apps.off { opacity: .35; pointer-events: none; }
 select { height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--line-2); background: var(--raise); color: var(--fg); font: 12px var(--sans); }
 .apps { display: grid; gap: 6px; }
 .app { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--raise); font-size: 13px; font-weight: 500; }
@@ -235,10 +245,14 @@ select { height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var
     <button class="x" id="subClose" type="button" aria-label="Close">✕</button>
   </div>
   <div class="dlg-body">
-    <p>Add the calendar to your app. New rides appear on their own.</p>
-    <label class="field" for="feed">Calendar
-      <select id="feed"></select>
-    </label>
+    <p>Pick what you want, then add it to your calendar app. New rides appear on their own.</p>
+    <div class="field">Include
+      <div class="picks" id="picks" role="group" aria-label="Categories to include"></div>
+    </div>
+    <div class="opts">
+      <label class="toggle"><input type="checkbox" id="subDenver"> Denver area only</label>
+      <label class="toggle"><input type="checkbox" id="subWeekly"> Weekly club rides</label>
+    </div>
     <div class="apps">
       <a class="app" id="appApple" href="#"><span class="g">◐</span>Apple Calendar<small>iPhone · Mac</small></a>
       <a class="app" id="appGoogle" href="#" target="_blank" rel="noopener"><span class="g">G</span>Google Calendar<small>Android · Web</small></a>
@@ -370,18 +384,47 @@ select { height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var
 
   // Subscribe dialog
   const feedBase = () => DATA.siteUrl ? DATA.siteUrl.replace(/\/?$/, "/") : new URL(".", location.href).href;
+  // Every mix of categories has a prebuilt file: feeds/<cats>[-denver][-weekly].ics
+  const sub = { cats: new Set(), denver: false, weekly: false };
+  function feedFile() {
+    const keys = Object.keys(DATA.categories).filter((k) => sub.cats.has(k));
+    if (!keys.length) return null;
+    if (keys.length === Object.keys(DATA.categories).length && !sub.denver && !sub.weekly) return "calendar.ics";
+    return "feeds/" + keys.join("-") + (sub.denver ? "-denver" : "") + (sub.weekly ? "-weekly" : "") + ".ics";
+  }
+  function feedName() {
+    const all = sub.cats.size === Object.keys(DATA.categories).length;
+    const what = all ? "All categories" : Object.keys(DATA.categories).filter((k) => sub.cats.has(k)).map((k) => DATA.categories[k]).join(", ");
+    return "Mile High Rides: " + what + (sub.denver ? " (Denver area)" : "");
+  }
   function updateFeed() {
-    const https = feedBase() + $("#feed").value;
+    $("#picks").querySelectorAll(".pick").forEach((b) => {
+      const on = sub.cats.has(b.dataset.k);
+      b.setAttribute("aria-pressed", on);
+      b.querySelector(".box").textContent = on ? "●" : "○";
+    });
+    const file = feedFile();
+    $(".apps").classList.toggle("off", !file);
+    $("#copyBtn").disabled = !file;
+    if (!file) { $("#feedUrl").value = "Pick at least one category"; return; }
+    const https = feedBase() + file;
     const webcal = https.replace(/^https?:/, "webcal:");
     $("#feedUrl").value = https;
     $("#appApple").href = webcal;
     $("#appGoogle").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
-    $("#appOutlook").href = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(https) + "&name=" + encodeURIComponent($("#feed").selectedOptions[0].textContent);
+    $("#appOutlook").href = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(https) + "&name=" + encodeURIComponent(feedName());
   }
   function setupSubscribe() {
-    const opts = [["calendar.ics", "Everything (no weekly rides)"], ["calendar-denver.ics", "Denver area only"], ...Object.entries(DATA.categories).map(([k, l]) => [`calendar-${k}.ics`, l])];
-    $("#feed").innerHTML = opts.map(([f, l]) => `<option value="${f}">${esc(l)}</option>`).join("");
-    $("#feed").addEventListener("change", updateFeed);
+    Object.keys(DATA.categories).forEach((k) => sub.cats.add(k));
+    $("#picks").innerHTML = Object.entries(DATA.categories).map(([k, l]) =>
+      `<button type="button" class="pick" data-k="${k}" style="--c:var(--c-${k})"><span class="g">${GLYPH[k]}</span>${esc(SHORT[k] || l)}<span class="box"></span></button>`).join("");
+    $("#picks").addEventListener("click", (ev) => {
+      const b = ev.target.closest(".pick"); if (!b) return;
+      sub.cats.has(b.dataset.k) ? sub.cats.delete(b.dataset.k) : sub.cats.add(b.dataset.k);
+      updateFeed();
+    });
+    $("#subDenver").addEventListener("change", (e) => { sub.denver = e.target.checked; updateFeed(); });
+    $("#subWeekly").addEventListener("change", (e) => { sub.weekly = e.target.checked; updateFeed(); });
     updateFeed();
     if (!DATA.siteUrl && /claude\.ai|claudeusercontent/.test(location.host)) {
       $("#subNote").className = "note preview";

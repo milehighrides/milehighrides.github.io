@@ -16,6 +16,8 @@ import argparse
 import calendar
 import datetime as dt
 import html
+import itertools
+import shutil
 import json
 import re
 import sys
@@ -404,6 +406,25 @@ def main():
     for cat, label in CATEGORIES.items():
         subset = [e for e in merged if e["category"] == cat]
         write_ics(SITE / f"calendar-{cat}.ics", subset, f"Mile High Rides: {label}", stamp)
+
+    # One feed for every mix of categories, so subscribers can pick exactly what
+    # they want. Named feeds/<cats in CATEGORIES order>[-denver][-weekly].ics
+    feeds = SITE / "feeds"
+    if feeds.exists():
+        shutil.rmtree(feeds)
+    feeds.mkdir()
+    keys = list(CATEGORIES)
+    for picked in (c for r in range(1, len(keys) + 1) for c in itertools.combinations(keys, r)):
+        for denver_only in (False, True):
+            for weekly in (False, True):
+                subset = [e for e in merged
+                          if e["category"] in picked
+                          and (weekly or not e["weekly"])
+                          and (not denver_only or e["region"] == "denver")]
+                labels = "All categories" if len(picked) == len(keys) else ", ".join(CATEGORIES[c] for c in picked)
+                name = f"Mile High Rides: {labels}" + (" (Denver area)" if denver_only else "")
+                stem = "-".join(picked) + ("-denver" if denver_only else "") + ("-weekly" if weekly else "")
+                write_ics(feeds / f"{stem}.ics", subset, name, stamp)
 
     payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
