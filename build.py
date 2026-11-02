@@ -312,8 +312,12 @@ def load_curated(curated, today, horizon):
         if e["start"][:10] > horizon.isoformat():
             continue
         out.append({**{"end": None, "stats": None, "region": "denver"}, **e, "allDay": all_day, "source": "Curated"})
+    # A confirmed one-off with the same title replaces that month's estimate,
+    # even if the real date moved a day or two.
+    confirmed = {(e["title"], e["start"][:7]) for e in out}
     for rec in curated.get("recurring", []):
-        out.extend(expand_recurring(rec, today, horizon))
+        out.extend(e for e in expand_recurring(rec, today, horizon)
+                   if (e["title"], e["start"][:7]) not in confirmed)
     return out
 
 
