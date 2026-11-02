@@ -260,6 +260,28 @@
           "time": "12:30"
         }
       ]
+    },
+    {
+      "id": "lookout-full-moon",
+      "title": "Lookout Mountain Full Moon Ride",
+      "durationMin": 120,
+      "category": "social",
+      "region": "denver",
+      "status": "expected",
+      "location": "The Pillars, base of Lookout Mountain Road, Beverly Heights, Golden",
+      "url": "https://www.facebook.com/groups/1675606382710552/",
+      "description": "Night climb up Lookout Mountain under the full moon, with the road gated to cars. Meet at the Pillars at the bottom of Lookout Mountain Road around 9pm. Bring front and rear lights. Dates follow the full moon from May to October; the organizers confirm each ride in their Facebook group.",
+      "fullMoon": {
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "time": "21:00"
+      }
     }
   ],
   "regular": [

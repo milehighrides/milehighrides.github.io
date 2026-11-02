@@ -19,10 +19,12 @@ import html
 import itertools
 import shutil
 import json
+import math
 import re
 import sys
 import urllib.request
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -218,7 +220,51 @@ def last_weekday(year, month, weekday):
     return d - dt.timedelta(days=(d.weekday() - weekday) % 7)
 
 
+def full_moons(start, end):
+    """UTC times of full moons between two dates (Meeus, Astronomical Algorithms ch. 49; good to a few minutes)."""
+    out = []
+    k = math.floor((start.year + (start.timetuple().tm_yday - 1) / 365.25 - 2000) * 12.3685) - 1.5
+    while True:
+        T = k / 1236.85
+        jde = 2451550.09766 + 29.530588861 * k + 0.00015437 * T * T
+        r = math.radians
+        M = r(2.5534 + 29.10535670 * k)
+        Mp = r(201.5643 + 385.81693528 * k + 0.0107582 * T * T)
+        F = r(160.7108 + 390.67050284 * k - 0.0016118 * T * T)
+        Om = r(124.7746 - 1.56375588 * k)
+        E = 1 - 0.002516 * T
+        jde += (-0.40614 * math.sin(Mp) + 0.17302 * E * math.sin(M) + 0.01614 * math.sin(2 * Mp)
+                + 0.01043 * math.sin(2 * F) + 0.00734 * E * math.sin(Mp - M) - 0.00515 * E * math.sin(Mp + M)
+                + 0.00209 * E * E * math.sin(2 * M) - 0.00111 * math.sin(Mp - 2 * F) - 0.00057 * math.sin(Mp + 2 * F)
+                + 0.00056 * E * math.sin(2 * Mp + M) - 0.00042 * math.sin(3 * Mp) + 0.00042 * E * math.sin(M + 2 * F)
+                + 0.00038 * E * math.sin(M - 2 * F) - 0.00024 * E * math.sin(2 * Mp - M) - 0.00017 * math.sin(Om))
+        when = dt.datetime(2000, 1, 1, 12, tzinfo=dt.timezone.utc) + dt.timedelta(days=jde - 2451545.0)
+        if when.date() > end:
+            return out
+        if when.date() >= start:
+            out.append(when)
+        k += 1
+
+
+def full_moon_nights(rule, today, horizon):
+    """Dates of the evening ride closest to each full moon, in the rule's months."""
+    tz = ZoneInfo("America/Denver")
+    hh, mm = map(int, rule["time"].split(":"))
+    days = []
+    for moon in full_moons(today - dt.timedelta(days=2), horizon + dt.timedelta(days=2)):
+        local = moon.astimezone(tz)
+        same = local.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        prev = same - dt.timedelta(days=1)
+        d = (prev if abs(local - prev) < abs(same - local) else same).date()
+        if d.month in rule["months"] and today <= d <= horizon:
+            days.append(d)
+    return days
+
+
 def expand_recurring(rec, today, horizon):
+    if rec.get("fullMoon"):
+        rule = rec["fullMoon"]
+        return [recurring_event(rec, d, rule) for d in full_moon_nights(rule, today, horizon)]
     out = []
     y, m = today.year, today.month
     # Rules: [{"months": [5..10], "lastWeekday": "fri", "time": "18:30"}, ...]
@@ -231,26 +277,30 @@ def expand_recurring(rec, today, horizon):
         if d > horizon:
             break
         if d >= today:
-            start = f"{d.isoformat()}T{rule['time']}"
-            end_t = dt.datetime.fromisoformat(start) + dt.timedelta(minutes=rec.get("durationMin", 120))
-            out.append({
-                "id": f"{rec['id']}-{d.isoformat()}",
-                "title": rec["title"],
-                "start": start,
-                "end": end_t.strftime("%Y-%m-%dT%H:%M"),
-                "allDay": False,
-                "category": rec["category"],
-                "region": rec.get("region", "denver"),
-                "status": "recurring",
-                "location": rec["location"],
-                "url": rec.get("url"),
-                "description": rec["description"],
-                "source": "Curated",
-            })
+            out.append(recurring_event(rec, d, rule))
         m += 1
         if m > 12:
             y, m = y + 1, 1
     return out
+
+
+def recurring_event(rec, d, rule):
+    start = f"{d.isoformat()}T{rule['time']}"
+    end_t = dt.datetime.fromisoformat(start) + dt.timedelta(minutes=rec.get("durationMin", 120))
+    return {
+        "id": f"{rec['id']}-{d.isoformat()}",
+        "title": rec["title"],
+        "start": start,
+        "end": end_t.strftime("%Y-%m-%dT%H:%M"),
+        "allDay": False,
+        "category": rec["category"],
+        "region": rec.get("region", "denver"),
+        "status": rec.get("status", "recurring"),
+        "location": rec["location"],
+        "url": rec.get("url"),
+        "description": rec["description"],
+        "source": "Curated",
+    }
 
 
 def load_curated(curated, today, horizon):
