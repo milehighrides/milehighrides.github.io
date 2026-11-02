@@ -1,48 +1,6 @@
 [
  {
   "DTSTART": [
-   "2026-10-29",
-   true
-  ],
-  "DTEND": [
-   "2026-11-02",
-   true
-  ],
-  "DTSTAMP": "20260518T160519Z",
-  "CREATED": "20260518T160519Z",
-  "LAST-MODIFIED": "20260518T160519Z",
-  "UID": "10001303-1793232000-1793577599@bicyclecolorado.org",
-  "SUMMARY": "Roll with Bob Roll",
-  "DESCRIPTION": "\ud83d\udeb4\u200d\u2642\ufe0f 2-for-1 Special \u2013 Bring a Friend to Roll with Bob Roll! \ud83d\udeb4\u200d\u2640\ufe0f \nDon\u2019t miss this incredible opportunity to train, ride, and learn with one of cycling\u2019s most legendary personalities. \nFor a limited time, register two riders for just $1,995 \u2014 that\u2019s only $997.50 per person. \nRoll with Bob Roll\nOctober 29 \u2013 November 1, 2026\nMoab, Utah \nJoin Aspen Sports Performance for a unique 4-day cycling experience in the stunning red rock landscape of Moab, Utah\u2014one of the most iconic cycling destinations in the United States. Known worldwide for its breathtaking canyon scenery, challenging road climbs, and legendary mountain bike trails, Moab offers the perfect backdrop for riders looking to improve and be inspired. \nThis immersive event includes: \nFour days of guided road and mountain bike riding\nPersonalized coaching and on-bike clinics\nThree evenings of educational seminars\nPresentations from professional cyclists, sports medicine experts, nutritionists, and industry representatives \nDesigned for intermediate to advanced cyclists ages 10 and up, Roll with Bob Roll provides practical guidance on training, nutrition, fitness, and year-round performance. \nMeet Bob Roll \nBob Roll\u2014affectionately known as \u201cBobke\u201d\u2014is one of the most recognizable figures in American cycling. A former professional cyclist, Roll competed in the Tour de France and was a member of the pioneering 7-Eleven Cycling Team, the first American team to compete in Europe at the highest level. Today, he is widely known as the energetic and insightful voice of cycling broadcasts on NBC Sports, including the Tour de France and Olympic cycling events. \nBob\u2019s wealth of experience, humor, and passion for the sport make this event both educational and unforgettable. \nLodging Information \nHotel accommodations are not included. A limited number of rooms are available at the Archway Inn at a discounted group rate. These rooms fill quickly, so reserve early. \nQuestions? \nFor additional information, contact Chip Chilson\n\ud83d\udcde 970-948-1212\n\ud83d\udce7 chip_chilson@msn.com \nFor complete event details and registration, visit Roll with Bob Roll.",
-  "URL": "https://bicyclecolorado.org/event/roll-with-bob-roll-2026/",
-  "LOCATION": "Moab, UT, Moab, UT, United States",
-  "CATEGORIES": "Classes and Clinics,Group Rides,Mountain,Road,Youth",
-  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/05/IMG_8613-scaled.jpeg",
-  "ORGANIZER": "MAILTO:chip_chilson@msn.com"
- },
- {
-  "DTSTART": [
-   "2026-10-31",
-   true
-  ],
-  "DTEND": [
-   "2026-11-02",
-   true
-  ],
-  "DTSTAMP": "20261021T191052Z",
-  "CREATED": "20260522T175802Z",
-  "LAST-MODIFIED": "20261021T191052Z",
-  "UID": "10001319-1793404800-1793577599@bicyclecolorado.org",
-  "SUMMARY": "Colorado High School Cycling League Race #5 - Glenwood Springs",
-  "DESCRIPTION": "The Colorado League fall race series consists of 4 regional races and a state championship. Mountain biking is a recognized club by many high school administrations. We provide student-athletes with a unique opportunity not found in many traditional school sports. Both individual achievement and teamwork are recognized. \nTeams range from 5 to 100+ riders and foster an inclusive culture for participation. We provide high school student-athletes a festive, family-friendly atmosphere that focuses on respectful competition. Teams and individuals are encouraged to set and accomplish competitive goals and to achieve their personal best. \nProfessional race promotion, timing, course preparation, and risk management assure participants and spectators an exceptional experience where rule #1 is fun, whether a novice or world-class competitor!",
-  "URL": "https://bicyclecolorado.org/event/colorado-high-school-cycling-league-race-5-glenwood-springs/",
-  "LOCATION": "Glenwood Springs, CO, Glenwood Springs, United States",
-  "CATEGORIES": "Mountain,Youth",
-  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/05/CO-League-Logo_3_28_2016-4.png",
-  "ORGANIZER": "MAILTO:raceops@coloradomtb.org"
- },
- {
-  "DTSTART": [
    "2026-11-04T07:30",
    false
   ],
