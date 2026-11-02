@@ -281,6 +281,10 @@
           10
         ],
         "time": "21:00"
+      },
+      "goldenToday": {
+        "ics": "https://calendar.google.com/calendar/ical/ib10lknj7255htdq1r34sa4tfo%40group.calendar.google.com/public/basic.ics",
+        "title": "lookout mountain full moon"
       }
     }
   ],

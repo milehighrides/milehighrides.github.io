@@ -261,10 +261,61 @@ def full_moon_nights(rule, today, horizon):
     return days
 
 
+OFFLINE = False
+
+
+def check_golden_today(rec, today):
+    """Look for the ride in Golden Today's public events calendar, which lists
+    it a few days ahead. Any month counts, so off-season rides show up too.
+    Returns {date: {time, where, url}}, cached so offline builds keep it."""
+    conf = rec["goldenToday"]
+    cache_file = CACHE / f"{rec['id']}-goldentoday.json"
+    found = json.loads(cache_file.read_text()) if cache_file.exists() else {}
+    found = {d: v for d, v in found.items() if d >= today.isoformat()}
+    if OFFLINE:
+        return found
+    try:
+        events = parse_ics(fetch(conf["ics"]))
+    except Exception as exc:  # keep what we knew
+        print(f"  golden today: skipped ({exc})", file=sys.stderr)
+        return found
+    found = {}
+    for e in events:
+        start = e.get("DTSTART")
+        if not start or not re.search(conf["title"], e.get("SUMMARY", ""), re.I):
+            continue
+        if e.get("STATUS", "").upper() == "CANCELLED" or start[0][:10] < today.isoformat():
+            continue
+        link = re.search(r"https?://[^\s<>\"]+", e.get("DESCRIPTION", ""))
+        found[start[0][:10]] = {
+            "time": start[0][11:16] if not start[1] and len(start[0]) > 10 else rec["fullMoon"]["time"],
+            "where": e.get("LOCATION") or None,
+            "url": link.group(0) if link else conf.get("page", "https://www.goldentoday.com/calendar/"),
+        }
+        print(f"  golden today: {e['SUMMARY']} confirmed for {start[0][:10]}")
+    CACHE.mkdir(parents=True, exist_ok=True)
+    cache_file.write_text(json.dumps(found, indent=1, sort_keys=True))
+    return found
+
+
 def expand_recurring(rec, today, horizon):
     if rec.get("fullMoon"):
         rule = rec["fullMoon"]
-        return [recurring_event(rec, d, rule) for d in full_moon_nights(rule, today, horizon)]
+        found = check_golden_today(rec, today) if rec.get("goldenToday") else {}
+        out = []
+        for day, info in sorted(found.items()):
+            d = dt.date.fromisoformat(day)
+            if today <= d <= horizon:
+                e = recurring_event(rec, d, {"time": info["time"]})
+                e.update(status="confirmed", url=info["url"],
+                         location=info.get("where") or e["location"],
+                         description=rec["description"] + " Confirmed on Golden Today.")
+                out.append(e)
+        months_found = {day[:7] for day in found}
+        for d in full_moon_nights(rule, today, horizon):
+            if d.isoformat()[:7] not in months_found:
+                out.append(recurring_event(rec, d, rule))
+        return out
     out = []
     y, m = today.year, today.month
     # Rules: [{"months": [5..10], "lastWeekday": "fri", "time": "18:30"}, ...]
@@ -411,6 +462,8 @@ def main():
     ap.add_argument("--offline", action="store_true", help="use cached feeds, no network")
     ap.add_argument("--today", help="override today's date (YYYY-MM-DD)")
     args = ap.parse_args()
+    global OFFLINE
+    OFFLINE = args.offline
 
     today = dt.date.fromisoformat(args.today) if args.today else dt.date.today()
     horizon = today + dt.timedelta(days=400)
