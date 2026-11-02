@@ -1,0 +1,313 @@
+{
+  "_readme": "Hand-curated events. status: 'confirmed' = organizer has announced the date; 'expected' = date estimated from the event's usual yearly pattern, not yet announced. Dates are YYYY-MM-DD (all day) or YYYY-MM-DDTHH:MM (Denver local time). 'end' is inclusive for all-day events.",
+  "events": [
+    {
+      "id": "tweed-ride-denver-2026",
+      "title": "Tweed Ride Denver",
+      "start": "2026-11-14T15:00",
+      "end": "2026-11-14T22:00",
+      "category": "social",
+      "status": "confirmed",
+      "location": "RiNoVELO Bicycle Workshop, 3525 Walnut St, Denver",
+      "url": "https://www.eventbrite.com/e/tweed-ride-denver-2026-tickets-2002097884668",
+      "description": "Dress in your best vintage tweed for a relaxed, fully supported ride through the city. Hosted by the RiNoVELO bike shop. All levels welcome; tickets on Eventbrite."
+    },
+    {
+      "id": "winter-bike-to-work-day-2027",
+      "title": "Winter Bike to Work Day",
+      "start": "2027-02-12",
+      "category": "days",
+      "status": "confirmed",
+      "location": "Statewide, with breakfast stations across metro Denver",
+      "url": "https://www.codot.gov/programs/bikeped/information-for-bicyclists/winter-bike-to-work-day",
+      "description": "The cold-weather edition of Bike to Work Day, held the second Friday of February. Register to find warm-up stations along your commute."
+    },
+    {
+      "id": "national-bike-month-2027",
+      "title": "National Bike Month",
+      "start": "2027-05-01",
+      "end": "2027-05-31",
+      "category": "days",
+      "status": "expected",
+      "location": "Nationwide",
+      "url": "https://bikeleague.org/",
+      "description": "The League of American Bicyclists' month of bike events every May. Colorado runs its own Bike Month in June."
+    },
+    {
+      "id": "trail-ridge-bike-only-2027",
+      "title": "Trail Ridge Road bikes-only spring riding",
+      "start": "2027-05-01",
+      "end": "2027-05-27",
+      "category": "roads",
+      "status": "expected",
+      "location": "Rocky Mountain National Park",
+      "url": "https://www.nps.gov/romo/planyourvisit/biking.htm",
+      "stats": "Top: 12,183 ft",
+      "description": "While plows clear Trail Ridge Road, cyclists may ride sections that are closed to cars, as long as the road isn't in winter trail status. How far you can go changes day to day. Call the road status line at 970-586-1222 before you go.",
+      "region": "colorado"
+    },
+    {
+      "id": "bike-to-school-day-2027",
+      "title": "National Bike to School Day",
+      "start": "2027-05-05",
+      "category": "days",
+      "status": "expected",
+      "location": "Schools across the metro",
+      "url": "https://www.walkbiketoschool.org/",
+      "description": "Kids, parents and schools ride in together. Usually the first Wednesday in May."
+    },
+    {
+      "id": "national-bike-to-work-day-2027",
+      "title": "National Bike to Work Day",
+      "start": "2027-05-21",
+      "category": "days",
+      "status": "expected",
+      "location": "Nationwide",
+      "url": "https://bikeleague.org/",
+      "description": "The national date, the third Friday of May. Colorado's big statewide Bike to Work Day is in late June."
+    },
+    {
+      "id": "trail-ridge-opens-2027",
+      "title": "Trail Ridge Road opens to cars",
+      "start": "2027-05-28",
+      "category": "roads",
+      "status": "expected",
+      "location": "Rocky Mountain National Park",
+      "url": "https://www.nps.gov/romo/planyourvisit/biking.htm",
+      "stats": "Top: 12,183 ft",
+      "description": "The park aims to open Trail Ridge Road by Memorial Day weekend. Late snow has pushed the opening past Memorial Day six times since 1999. Once it opens, bikes share the road with traffic and must ride single file.",
+      "region": "colorado"
+    },
+    {
+      "id": "mount-blue-sky-2027",
+      "title": "Mount Blue Sky Scenic Byway: 2027 status",
+      "start": "2027-05-28",
+      "category": "roads",
+      "status": "expected",
+      "location": "Idaho Springs (Highway 5)",
+      "url": "https://highways.dot.gov/federal-lands/projects/co/mount-blue-sky-highway",
+      "stats": "Top: 14,130 ft",
+      "description": "The highest paved road in North America has been closed to cars for reconstruction through the 2026 season. The 2027 reopening, and whether the Mount Blue Sky Hill Climb returns, has not been announced. Placeholder date: Memorial Day weekend."
+    },
+    {
+      "id": "colorado-bike-month-2027",
+      "title": "Colorado Bike Month",
+      "start": "2027-06-01",
+      "end": "2027-06-30",
+      "category": "days",
+      "status": "expected",
+      "location": "Statewide",
+      "url": "https://www.codot.gov/programs/bikeped/information-for-bicyclists/colorado-bike-month/colorado-bike-month.html",
+      "description": "CDOT's statewide month of bike events, rides and commuter challenges, ending with Colorado Bike to Work Day."
+    },
+    {
+      "id": "denver-bike-fest-2027",
+      "title": "Denver Bike Fest",
+      "start": "2027-06-12",
+      "category": "community",
+      "status": "expected",
+      "location": "York Street Yards, 3821 Steele St, Denver",
+      "url": "https://denverbikefest.app/",
+      "description": "Free community festival of bikes, music and food with 25+ local bike groups, shops and nonprofits, plus free bike valet. 2026 was Saturday, June 13 at York Street Yards."
+    },
+    {
+      "id": "bike-ms-colorado-2027",
+      "title": "Bike MS Colorado",
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "category": "big",
+      "status": "expected",
+      "region": "colorado",
+      "location": "Northern Colorado (route TBA)",
+      "url": "https://events.nationalmssociety.org/2539",
+      "description": "Colorado's largest charity bike ride, a two-day fundraiser for the National MS Society. 2026 was June 13 and 14 from Greeley; earlier years started in Boulder in late June."
+    },
+    {
+      "id": "colorado-bike-to-work-day-2027",
+      "title": "Colorado Bike to Work Day",
+      "start": "2027-06-30",
+      "category": "days",
+      "status": "expected",
+      "location": "Statewide, with hundreds of breakfast stations",
+      "url": "https://bicyclecolorado.org/bike-to-work-day/",
+      "description": "One of the biggest bike-to-work days in the country. Held the last Wednesday of June. Free breakfast stations line the trails and bike lanes all morning."
+    },
+    {
+      "id": "triple-bypass-2027",
+      "title": "Triple Bypass",
+      "start": "2027-07-10",
+      "category": "big",
+      "status": "expected",
+      "location": "Evergreen to Avon",
+      "url": "https://bikesignup.com/Race/Info/CO/Evergreen/TripleBypass",
+      "stats": "~120 mi · 3 passes",
+      "description": "Colorado's classic one-day mountain ride over Juniper, Loveland and Vail passes. 2026 was Saturday, July 11; 2027 is expected the same weekend."
+    },
+    {
+      "id": "copper-triangle-2027",
+      "title": "Copper Triangle",
+      "start": "2027-08-07",
+      "category": "big",
+      "status": "expected",
+      "location": "Copper Mountain",
+      "url": "https://theridecollective.com/",
+      "stats": "~78 mi · 3 passes",
+      "description": "The Ride Collective's loop over Fremont Pass, Tennessee Pass and Vail Pass. Usually the first Saturday of August (Aug 1, 2026).",
+      "region": "colorado"
+    },
+    {
+      "id": "colorados-ride-2027",
+      "title": "Colorado's Ride (formerly Ride the Rockies)",
+      "start": "2027-08-08",
+      "end": "2027-08-13",
+      "category": "big",
+      "status": "expected",
+      "location": "Route TBA (moving north)",
+      "url": "https://coloradosun.com/2026/06/24/colorados-ride-bicycle-tour/",
+      "description": "Week-long supported tour through the mountains. 2026 ran Aug 9 to 14 through Buena Vista, Salida, Gunnison and Crested Butte. Organizers say the next route moves north.",
+      "region": "colorado"
+    },
+    {
+      "id": "tour-de-fat-2027",
+      "title": "Tour de Fat",
+      "start": "2027-08-28",
+      "category": "community",
+      "status": "expected",
+      "location": "Fort Collins",
+      "url": "https://www.newbelgium.com/",
+      "description": "New Belgium's costumed bike parade and festival. 2026 was Saturday, Aug 29.",
+      "region": "colorado"
+    },
+    {
+      "id": "tour-of-the-moon-2027",
+      "title": "Tour of the Moon",
+      "start": "2027-09-11",
+      "category": "big",
+      "status": "expected",
+      "region": "colorado",
+      "location": "Grand Junction Convention Center",
+      "url": "https://bicyclecolorado.org/tour-of-the-moon-and-family-adventure-in-grand-junction/",
+      "stats": "40–60 mi",
+      "description": "A car-free ride through Colorado National Monument's Rim Rock Drive, run by The Ride Collective. Capped at 2,200 riders and sells out every year. 2026 was Saturday, Sept 12."
+    },
+    {
+      "id": "tour-de-vineyards-2027",
+      "title": "Tour de Vineyards",
+      "start": "2027-09-18",
+      "category": "big",
+      "status": "expected",
+      "region": "colorado",
+      "location": "Palisade",
+      "url": "https://theridecollective.com/",
+      "description": "A relaxed ride through Palisade's orchards and wineries, now 30 years running. Run by The Ride Collective. 2026 was Saturday, Sept 19."
+    },
+    {
+      "id": "denver-century-ride-2027",
+      "title": "Denver Century Ride",
+      "start": "2027-09-25",
+      "category": "big",
+      "status": "expected",
+      "location": "The Shops at Northfield, 8340 Northfield Blvd, Denver",
+      "url": "https://bicyclecolorado.org/",
+      "stats": "Up to 100 mi",
+      "description": "Denver's flagship supported ride, with route options up to 100 miles. 2026 was Saturday, Sept 26; registration usually opens in December."
+    },
+    {
+      "id": "trail-ridge-closes-2027",
+      "title": "Trail Ridge Road closes to cars for the season",
+      "start": "2027-10-12",
+      "category": "roads",
+      "status": "expected",
+      "location": "Rocky Mountain National Park",
+      "url": "https://www.nps.gov/romo/planyourvisit/biking.htm",
+      "stats": "Top: 12,183 ft",
+      "description": "Trail Ridge usually closes for winter in mid to late October, whenever the first big storms arrive. After that it's bikes and feet only, where the road isn't snow-covered.",
+      "region": "colorado"
+    }
+  ],
+  "recurring": [
+    {
+      "id": "critical-mass",
+      "title": "Denver Critical Mass",
+      "rule": "last-friday",
+      "time": "17:30",
+      "durationMin": 150,
+      "category": "social",
+      "location": "Civic Center Park, Denver",
+      "url": "https://criticalmass.in/denver",
+      "description": "Leaderless monthly mass ride. Riders traditionally meet at Civic Center Park around 5:30 pm on the last Friday of the month. It's community-run, so the start point sometimes changes (Sunken Gardens Park has been used too)."
+    }
+  ],
+  "regular": [
+    {
+      "title": "Denver Critical Mass",
+      "when": "Last Friday monthly · 5:30pm",
+      "where": "Civic Center Park",
+      "url": "https://criticalmass.in/denver",
+      "blurb": "Leaderless group ride through downtown."
+    },
+    {
+      "title": "Denver Cruisers",
+      "when": "Monthly Thursdays, May–Sept · 7pm",
+      "where": "Central Denver",
+      "url": "https://denvercruisers.com/",
+      "blurb": "The original costumed party ride. Themes posted on social media."
+    },
+    {
+      "title": "Adventure Cycling shop ride",
+      "when": "Saturdays · 10am (9am summer)",
+      "where": "4361 S Parker Rd, Aurora",
+      "url": "https://www.adventurecycle.net/about/saturday-morning-rides-pg246.htm",
+      "blurb": "Friendly, no-drop shop ride. Weather permitting."
+    },
+    {
+      "title": "Mike's Bikes shop rides",
+      "when": "Weekly",
+      "where": "Downtown Denver",
+      "url": "https://mikesbikes.com/pages/downtown-denver",
+      "blurb": "Casual guided rides and faster hill rides."
+    },
+    {
+      "title": "Bike Streets free rides",
+      "when": "Monthly",
+      "where": "Denver neighborhoods",
+      "url": "https://bikestreets.com/",
+      "blurb": "Easy pace on low-stress routes. Good first group ride."
+    },
+    {
+      "title": "Denver Cycling Club · Phil's Circuit",
+      "when": "Wednesdays · 8am",
+      "where": "C-470 Greenway",
+      "url": "https://www.meetup.com/denver-cycling-club-dcc/",
+      "blurb": "Social “B” pace road loop, all year."
+    },
+    {
+      "title": "Denver Bicycle Touring Club",
+      "when": "Weekday + weekend rides",
+      "where": "All over the metro",
+      "url": "https://dbtc.org/",
+      "blurb": "Rated rides from flat to serious climbs, plus social “FUN Rides”."
+    },
+    {
+      "title": "Team Evergreen",
+      "when": "Wed + Sun road, alt. Sat gravel",
+      "where": "Evergreen",
+      "url": "https://www.teamevergreen.org/",
+      "blurb": "One of Colorado's biggest clubs. Runs the Triple Bypass."
+    },
+    {
+      "title": "Women's Fun Biking Group",
+      "when": "Several rides a month",
+      "where": "Denver metro",
+      "url": "https://www.meetup.com/womens-fun-biking-group/",
+      "blurb": "Social rides, regular and e-bikes welcome."
+    },
+    {
+      "title": "Rise n Ride commute",
+      "when": "Wednesdays · 7:30am",
+      "where": "McCaslin Park n Ride, Superior",
+      "url": "https://bicyclecolorado.org/events/",
+      "blurb": "Group commute along US 36."
+    }
+  ]
+}

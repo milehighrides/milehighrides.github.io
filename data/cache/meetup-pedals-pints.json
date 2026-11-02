@@ -1,0 +1,22 @@
+[
+ {
+  "UID": "event_316970215@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045109Z",
+  "DTSTART": [
+   "2026-11-07T12:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-07T18:00",
+   false
+  ],
+  "SUMMARY": "Cranksgiving 2026!",
+  "DESCRIPTION": "Pedals and Pints\nHi Y'all,\nThere's a bit of a chill in the air and you know what that means, it's Cranksgiving time!\nFor those who may not know, and for those who may not remember: Cranksgiving is our annual do gooders ride when we ride our bikes to grocery stores along with some breweries to help stock up the local pantries before the holiday rush. It's a scavenger hunt type of thing where you will get a list of items that are needed, and stores to get them at (as well as a manditory beer stop on the way)at the last minute, then it's a team free for all to see who can get the most stuff and/or be the first ones to finish.\nWe will be starting at Ratio beerworks in Denver. Meet and greet starts at noon, teams will be chosen around 1:00 and the ride will start at 1:30.\nFinish will likely be at Vine St. Pub for some grub and prize presentations. We usually finish around 4 -4:30 and are done with festivities by 6:30.\nPlan on spending $25 -30 plus on food. Bring a backpack/ panniers/trailer to carry food, and a helmet for yourself and lights for your bike if you have them. it will be dark when we finish.",
+  "URL": "https://www.meetup.com/bike-347/events/316970215/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261014T020255Z",
+  "LAST-MODIFIED": "20261014T020255Z",
+  "CLASS": "PUBLIC"
+ }
+]

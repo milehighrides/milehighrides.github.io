@@ -1,0 +1,8 @@
+# Built by GitHub Actions on every run
+site/
+
+# Local helpers
+tools/
+.claude/
+__pycache__/
+.DS_Store

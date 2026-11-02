@@ -1,0 +1,440 @@
+<title>Mile High Ride Calendar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Group rides, big rides, bike days and road closures around Denver, in one list and one calendar you can subscribe to.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500&display=swap">
+<style>
+/* Layout: slim top bar (name + small Subscribe button), one-line intro,
+   text filters, then a quiet two-column body: dated list and a narrow rail.
+   Single dark theme by design: black and greys, green is the only accent. */
+:root {
+  --bg: #000000;
+  --panel: #0c0c0c;
+  --raise: #141414;
+  --line: #222222;
+  --line-2: #333333;
+  --fg: #ededed;
+  --fg-2: #a1a1a1;
+  --fg-3: #6b6b6b;
+  --green: #3ddc84;
+  --green-dim: rgba(61, 220, 132, .12);
+  /* category colors: one hue per symbol */
+  --c-all: #ededed;
+  --c-big: #3ddc84;       /* green */
+  --c-group: #4da3ff;     /* blue */
+  --c-social: #ff4fd8;    /* magenta */
+  --c-days: #ffd60a;      /* yellow */
+  --c-roads: #ff7a1a;     /* orange */
+  --c-community: #ff4d5e; /* red */
+  --sans: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--fg); font: 400 12.5px/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+::selection { background: var(--green); color: #000; }
+:focus-visible { outline: 1px solid var(--green); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mono { font-family: var(--mono); }
+
+/* Top bar */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: rgba(0,0,0,.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 52px; }
+.brand { display: flex; align-items: center; gap: 10px; font-size: 11px; color: var(--fg-3); white-space: nowrap; }
+.brand .mark { color: var(--green); font-size: 14px; }
+.brand .alt { color: var(--fg-3); font-family: var(--mono); font-weight: 400; font-size: 11px; }
+.sub-btn { display: inline-flex; align-items: center; gap: 6px; height: 30px; padding: 0 12px; border-radius: 6px; border: 1px solid var(--line-2); background: var(--panel); font-size: 12px; font-weight: 500; cursor: pointer; white-space: nowrap; }
+.sub-btn:hover { border-color: var(--green); color: var(--green); }
+.sub-btn .ic { color: var(--green); }
+
+/* Intro */
+.intro { padding-block: 48px 28px; }
+.intro h1 { font-size: clamp(36px, 7vw, 64px); font-weight: 100; letter-spacing: -.05em; line-height: 1; margin: 0 0 18px; text-wrap: balance; }
+.intro h1 b { font-weight: 100; color: var(--green); }
+.intro h2 { font-size: 15px; font-weight: 400; color: var(--fg); letter-spacing: -.01em; margin: 0 0 6px; }
+.intro p { color: var(--fg-3); margin: 0; max-width: 60ch; font-size: 12px; }
+.intro .count { color: var(--green); font-family: var(--mono); }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; padding-block: 0 16px; border-bottom: 1px solid var(--line); }
+.tabs { display: flex; flex-wrap: wrap; gap: 2px; min-width: 0; }
+.tab { display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: 6px; border: 0; background: none; color: var(--fg-2); font-size: 12px; cursor: pointer; }
+.tab:hover { color: var(--fg); background: var(--raise); }
+.tab[aria-pressed="true"] { color: var(--fg); background: var(--raise); box-shadow: inset 0 0 0 1px var(--line-2); }
+.tab .g { font-size: 13px; color: var(--c); }
+.tab .n { font-family: var(--mono); font-size: 10px; color: var(--fg-3); }
+.tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--fg-2); cursor: pointer; user-select: none; }
+.toggle input { appearance: none; -webkit-appearance: none; width: 24px; height: 14px; border-radius: 7px; background: var(--line-2); position: relative; margin: 0; cursor: pointer; transition: background .15s; }
+.toggle input::after { content: ""; position: absolute; top: 2px; left: 2px; width: 10px; height: 10px; border-radius: 50%; background: var(--fg-2); transition: transform .15s, background .15s; }
+.toggle input:checked { background: var(--green-dim); box-shadow: inset 0 0 0 1px var(--green); }
+.toggle input:checked::after { transform: translateX(10px); background: var(--green); }
+.search { height: 28px; width: 170px; max-width: 100%; padding: 0 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); font: 12px var(--sans); }
+.search::placeholder { color: var(--fg-3); }
+.search:focus { outline: none; border-color: var(--line-2); }
+
+/* Body */
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 48px; padding-block: 8px 72px; align-items: start; }
+.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 76px); display: grid; gap: 32px; padding-top: 24px; }
+@media (max-width: 860px) {
+  .main { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .rail { position: static; padding-top: 8px; border-top: 1px solid var(--line); }
+}
+
+.month { padding-top: 18px; }
+/* Sticky: each heading stays under the top bar until the next month pushes it out */
+.month-head { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 53px); z-index: 3; display: flex; align-items: baseline; justify-content: space-between;
+  margin: 0; padding-block: 12px 10px; background: var(--bg); border-bottom: 1px solid var(--line-2); }
+.month-head h2 { font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-2); margin: 0; }
+.month-head span { font-family: var(--mono); font-size: 10px; color: var(--fg-3); }
+
+.ev { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 18px; padding: 16px 0; border-top: 1px solid var(--line); }
+.month-head + .ev { border-top: 0; }
+.date { font-family: var(--mono); line-height: 1.2; padding-top: 1px; }
+.date .d { font-size: 34px; font-weight: 100; line-height: 1; letter-spacing: -.05em; color: var(--fg); font-variant-numeric: tabular-nums; }
+.date .to { font-size: 10px; font-weight: 300; color: var(--fg-2); margin-top: 2px; white-space: nowrap; }
+.date .w { font-size: 10px; font-weight: 300; color: var(--fg-3); text-transform: uppercase; letter-spacing: .12em; margin-top: 6px; }
+.ev-body { min-width: 0; }
+.ev-line { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.ev h3 { font-size: 14px; font-weight: 500; letter-spacing: -.02em; line-height: 1.35; margin: 0; }
+.ev h3 a:hover { color: var(--green); }
+.status { font-family: var(--mono); font-size: 10px; white-space: nowrap; }
+.status.confirmed { color: var(--green); }
+.status.expected { color: var(--fg-3); }
+.status.recurring { color: var(--fg-2); }
+.ev.expected h3 { color: var(--fg-2); }
+.meta { display: flex; flex-wrap: wrap; gap: 0 6px; color: var(--fg-3); font-size: 12px; margin-top: 2px; }
+.meta > * + *::before { content: "·"; margin-right: 6px; color: var(--line-2); }
+.meta .cg { color: var(--c); font-size: 13px; }
+.meta .mono { font-size: 11px; color: var(--fg-2); }
+.desc { color: var(--fg-2); font-size: 12px; margin: 6px 0 0; max-width: 64ch; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.ev.open .desc { display: block; -webkit-line-clamp: unset; }
+.acts { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 6px; font-size: 11px; font-family: var(--mono); }
+.acts a, .acts button { color: var(--fg-3); background: none; border: 0; padding: 0; cursor: pointer; font: inherit; }
+.acts a:hover, .acts button:hover { color: var(--green); }
+.end { margin: 28px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--fg-3); font-size: 12px; max-width: 60ch; }
+.empty { padding: 48px 0; color: var(--fg-3); text-align: center; }
+
+/* Rail */
+.rail h2 { font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-2); margin: 0 0 10px; }
+.reg { list-style: none; margin: 0; padding: 0; }
+.reg li { padding: 10px 0; border-top: 1px solid var(--line); }
+.reg a { font-weight: 500; font-size: 13px; }
+.reg a:hover { color: var(--green); }
+.reg .when { display: block; font-family: var(--mono); font-size: 11px; color: var(--fg-2); margin-top: 2px; }
+.reg .blurb { display: block; font-size: 12px; color: var(--fg-3); }
+.key { display: grid; gap: 6px; font-size: 12px; color: var(--fg-3); margin: 0 0 10px; }
+.key div { display: grid; grid-template-columns: 74px 1fr; gap: 8px; }
+.small { font-size: 12px; color: var(--fg-3); margin: 0; }
+.small.spaced { margin-bottom: 10px; }
+.small a { color: var(--fg-2); text-decoration: underline; text-decoration-color: var(--line-2); text-underline-offset: 2px; }
+.small a:hover { color: var(--green); }
+
+.month-head h2::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 8px; background: var(--mc); vertical-align: 0; }
+@media (max-width: 440px) { .brand .alt { display: none; } }
+
+footer { border-top: 1px solid var(--line); }
+footer .wrap { padding-block: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 11px; color: var(--fg-3); font-family: var(--mono); }
+
+/* Subscribe dialog */
+dialog { width: min(380px, calc(100vw - 32px)); padding: 0; border: 1px solid var(--line-2); border-radius: 12px; background: var(--panel); color: var(--fg); box-shadow: 0 24px 80px rgba(0,0,0,.8); }
+dialog::backdrop { background: rgba(0,0,0,.7); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.dlg-head { display: flex; justify-content: space-between; align-items: center; padding: 16px 18px 0; }
+.dlg-head h2 { font-size: 14px; font-weight: 600; margin: 0; }
+.x { width: 28px; height: 28px; border-radius: 6px; border: 0; background: none; color: var(--fg-3); cursor: pointer; font-size: 16px; }
+.x:hover { color: var(--fg); background: var(--raise); }
+.dlg-body { padding: 6px 18px 18px; display: grid; gap: 14px; }
+.dlg-body > p { margin: 0; color: var(--fg-2); font-size: 12px; }
+.field { display: grid; gap: 6px; font-size: 11px; color: var(--fg-3); }
+select { height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--line-2); background: var(--raise); color: var(--fg); font: 12px var(--sans); }
+.apps { display: grid; gap: 6px; }
+.app { display: flex; align-items: center; gap: 10px; height: 38px; padding: 0 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--raise); font-size: 13px; font-weight: 500; }
+.app:hover { border-color: var(--green); }
+.app .g { width: 16px; text-align: center; color: var(--fg-3); }
+.app small { margin-left: auto; color: var(--fg-3); font-size: 11px; font-weight: 400; }
+.app:hover .g, .app:hover small { color: var(--green); }
+.url-row { display: flex; gap: 6px; }
+.url { flex: 1; min-width: 0; height: 32px; padding: 0 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--fg-2); font: 11px var(--mono); }
+.copy { height: 32px; padding: 0 12px; border-radius: 6px; border: 1px solid var(--line-2); background: var(--raise); font-size: 12px; cursor: pointer; }
+.copy:hover, .copy.done { color: var(--green); border-color: var(--green); }
+.note { font-size: 11px; color: var(--fg-3); margin: 0; }
+.note.preview { color: var(--green); }
+
+@media (max-width: 520px) {
+  .intro { padding-block: 28px 20px; }
+  .intro h2 { font-size: 14px; }
+  .ev { grid-template-columns: 58px minmax(0, 1fr); gap: 12px; }
+  .date .d { font-size: 28px; }
+  .search { width: 100%; }
+  .tools { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .toggle input, .toggle input::after { transition: none; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Mile High Ride Calendar, top of page"><span class="mark">◉</span><span class="alt">39.74°N 104.99°W · 5,280′</span></a>
+    <button class="sub-btn" id="subOpen" type="button" aria-haspopup="dialog"><span class="ic">＋</span>Subscribe to the Calendar</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="intro">
+    <h1>Mile High <b>Ride</b> Calendar</h1>
+    <h2>Bike rides, events and road closures in Denver and beyond.</h2>
+    <p id="lede">Group rides, big rides, bike days and mountain road dates in one list. Subscribe and they show up in your own calendar.</p>
+  </section>
+
+  <nav class="filters" aria-label="Filter events">
+    <div class="tabs" id="tabs" role="group" aria-label="Category"></div>
+    <div class="tools">
+      <label class="toggle"><input type="checkbox" id="showExpected" checked> Expected</label>
+      <label class="toggle"><input type="checkbox" id="showWeekly"> Weekly</label>
+      <label class="toggle"><input type="checkbox" id="showColorado" checked> Around CO</label>
+      <input class="search" id="q" type="search" placeholder="Search" aria-label="Search events">
+    </div>
+  </nav>
+
+  <div class="main">
+    <main id="list" aria-live="polite"><div class="empty">Loading…</div></main>
+    <aside class="rail">
+      <section>
+        <h2>Regular rides</h2>
+        <ul class="reg" id="regular"></ul>
+      </section>
+      <section>
+        <h2>Dates</h2>
+        <div class="key">
+          <div><span class="status confirmed">● confirmed</span><span>Announced by the organizer.</span></div>
+          <div><span class="status expected">○ expected</span><span>Estimated from past years.</span></div>
+          <div><span class="status recurring">↻ recurring</span><span>Regular community ride.</span></div>
+        </div>
+        <p class="small spaced">“Around CO” adds rides beyond the metro, like Tour of the Moon. “Weekly” shows every repeat of weekly club rides.</p>
+        <p class="small" id="sources">Check the organizer's page before you go. Mountain road dates depend on snow.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span id="updated">Updated —</span>
+    <span>Missing a ride? Add it to data/curated.json</span>
+  </div>
+</footer>
+
+<dialog id="subDlg" aria-labelledby="dlgTitle">
+  <div class="dlg-head">
+    <h2 id="dlgTitle">Subscribe</h2>
+    <button class="x" id="subClose" type="button" aria-label="Close">✕</button>
+  </div>
+  <div class="dlg-body">
+    <p>Add the calendar to your app. New rides appear on their own.</p>
+    <label class="field" for="feed">Calendar
+      <select id="feed"></select>
+    </label>
+    <div class="apps">
+      <a class="app" id="appApple" href="#"><span class="g">◐</span>Apple Calendar<small>iPhone · Mac</small></a>
+      <a class="app" id="appGoogle" href="#" target="_blank" rel="noopener"><span class="g">G</span>Google Calendar<small>Android · Web</small></a>
+      <a class="app" id="appOutlook" href="#" target="_blank" rel="noopener"><span class="g">◫</span>Outlook<small>Outlook.com · 365</small></a>
+    </div>
+    <div class="field">Or copy the address
+      <div class="url-row">
+        <input class="url" id="feedUrl" readonly aria-label="Calendar address">
+        <button class="copy" id="copyBtn" type="button">Copy</button>
+      </div>
+    </div>
+    <p class="note" id="subNote">Paste it into any calendar's “subscribe by URL” option.</p>
+  </div>
+</dialog>
+
+<script>
+(function () {
+  "use strict";
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const MONTHS_LONG = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  // One color per calendar month; neighbors are always clearly different.
+  const MONTH_COLORS = ["#8ecbff","#ff7ad9","#7ef0c5","#ffe066","#b6f36b","#ffb547","#ff6b6b","#c6b3ff","#ff9f68","#5ee0f0","#ffd166","#ff8fb1"];
+  const STATUS = { confirmed: "● confirmed", expected: "○ expected", recurring: "↻ recurring" };
+  const GLYPH = { all: "◇", big: "▲", group: "◎", social: "✺", days: "☀\uFE0E", roads: "⊘", community: "✦" };
+  const SHORT = { all: "All", big: "Big rides", group: "Group rides", social: "Social", days: "Bike days", roads: "Roads", community: "Community" };
+
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem("mhr:" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("mhr:" + k, JSON.stringify(v)); } catch (e) {} }
+  };
+  const state = { cat: store.get("cat", "all"), expected: store.get("expected", true), weekly: store.get("weekly", false), colorado: store.get("colorado", true), q: "" };
+  let DATA = null;
+
+  function parts(iso) {
+    const [d, t] = iso.split("T");
+    const [y, m, day] = d.split("-").map(Number);
+    return { y, m: m - 1, d: day, t: t || null, date: new Date(y, m - 1, day) };
+  }
+  function fmtTime(t) {
+    if (!t) return "";
+    let [h, m] = t.split(":").map(Number);
+    const ap = h >= 12 ? "pm" : "am";
+    h = h % 12 || 12;
+    return m ? `${h}:${String(m).padStart(2, "0")}${ap}` : `${h}${ap}`;
+  }
+  const pad = (n) => String(n).padStart(2, "0");
+  const ymd = (p) => `${p.y}${pad(p.m + 1)}${pad(p.d)}`;
+
+  function googleEventLink(e) {
+    const s = parts(e.start);
+    let dates;
+    if (e.allDay) {
+      const last = e.end ? parts(e.end).date : s.date;
+      const after = new Date(last.getFullYear(), last.getMonth(), last.getDate() + 1);
+      dates = `${ymd(s)}/${after.getFullYear()}${pad(after.getMonth() + 1)}${pad(after.getDate())}`;
+    } else {
+      const en = e.end ? parts(e.end) : null;
+      const st = `${ymd(s)}T${s.t.replace(":", "")}00`;
+      dates = `${st}/${en && en.t ? `${ymd(en)}T${en.t.replace(":", "")}00` : st}`;
+    }
+    const details = (e.status === "expected" ? "Expected date, not announced yet. " : "") + (e.description || "") + (e.url ? `\n\n${e.url}` : "");
+    return "https://calendar.google.com/calendar/render?" + new URLSearchParams({ action: "TEMPLATE", text: e.title, dates, ctz: "America/Denver", details, location: e.location || "" });
+  }
+
+  function dateCell(e) {
+    const s = parts(e.start);
+    const en = e.end && e.allDay ? parts(e.end) : null;
+    let to = "";
+    if (en && (en.d !== s.d || en.m !== s.m)) to = `<div class="to">→ ${en.m !== s.m ? MONTHS[en.m] + " " : ""}${pad(en.d)}</div>`;
+    return `<div class="date"><div class="d">${pad(s.d)}</div><div class="w">${DAYS[s.date.getDay()]}</div>${to}</div>`;
+  }
+
+  function row(e) {
+    const s = parts(e.start);
+    let when;
+    if (e.allDay) {
+      if (e.end) { const en = parts(e.end); when = `${MONTHS[s.m]} ${s.d} – ${MONTHS[en.m]} ${en.d}`; }
+      else when = "All day";
+    } else {
+      when = fmtTime(s.t) + (e.end && e.end.includes("T") ? `–${fmtTime(e.end.split("T")[1])}` : "");
+    }
+    const long = (e.description || "").length > 140;
+    const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+    return `<article class="ev ${e.status}">
+      ${dateCell(e)}
+      <div class="ev-body">
+        <div class="ev-line"><h3>${title}</h3><span class="status ${e.status}">${STATUS[e.status]}</span></div>
+        <div class="meta"><span><span class="cg" style="--c:var(--c-${e.category})">${GLYPH[e.category]}</span> ${esc(DATA.categories[e.category])}</span><span class="mono">${esc(when)}</span>${e.location ? `<span>${esc(e.location)}</span>` : ""}${e.stats ? `<span class="mono">${esc(e.stats)}</span>` : ""}${e.source && e.source !== "Curated" ? `<span>via ${esc(e.source)}</span>` : ""}</div>
+        ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
+        <div class="acts">
+          ${long ? `<button type="button" data-more>+ more</button>` : ""}
+          ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">event page ↗</a>` : ""}
+          <a href="${esc(googleEventLink(e))}" target="_blank" rel="noopener">add to google ↗</a>
+        </div>
+      </div>
+    </article>`;
+  }
+
+  const visible = (e) => (state.expected || e.status !== "expected") && (state.weekly || !e.weekly) && (state.colorado || e.region !== "colorado");
+
+  function render() {
+    const q = state.q.trim().toLowerCase();
+    const evs = DATA.events.filter((e) => visible(e) && (state.cat === "all" || e.category === state.cat) &&
+      (!q || (e.title + " " + (e.location || "") + " " + (e.description || "")).toLowerCase().includes(q)));
+    if (!evs.length) { $("#list").innerHTML = `<div class="empty">Nothing matches. Try another filter.</div>`; return; }
+    const groups = new Map();
+    for (const e of evs) {
+      const p = parts(e.start), k = `${p.y}-${pad(p.m)}`;
+      if (!groups.has(k)) groups.set(k, { label: `${MONTHS_LONG[p.m]} ${p.y}`, color: MONTH_COLORS[p.m], items: [] });
+      groups.get(k).items.push(e);
+    }
+    $("#list").innerHTML = [...groups.values()].map((g) =>
+      `<section class="month" data-label="${g.label}" style="--mc:${g.color}"><div class="month-head"><h2>${g.label}</h2><span>${g.items.length}</span></div>${g.items.map(row).join("")}</section>`).join("") +
+      `<p class="end">That's everything listed so far. Clubs and shops usually post rides a few weeks ahead, so later months fill in as the season gets closer.</p>`;
+  }
+
+
+  function renderTabs() {
+    const base = DATA.events.filter(visible);
+    const cats = [["all", "All"], ...Object.entries(DATA.categories)];
+    $("#tabs").innerHTML = cats.map(([k, label]) => {
+      const n = base.filter((e) => k === "all" || e.category === k).length;
+      return `<button type="button" class="tab" data-cat="${k}" aria-pressed="${state.cat === k}" style="--c:var(--c-${k})"><span class="g">${GLYPH[k]}</span>${esc(SHORT[k] || label)}<span class="n">${pad(n)}</span></button>`;
+    }).join("");
+  }
+
+  // Subscribe dialog
+  const feedBase = () => DATA.siteUrl ? DATA.siteUrl.replace(/\/?$/, "/") : new URL(".", location.href).href;
+  function updateFeed() {
+    const https = feedBase() + $("#feed").value;
+    const webcal = https.replace(/^https?:/, "webcal:");
+    $("#feedUrl").value = https;
+    $("#appApple").href = webcal;
+    $("#appGoogle").href = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(webcal);
+    $("#appOutlook").href = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(https) + "&name=" + encodeURIComponent($("#feed").selectedOptions[0].textContent);
+  }
+  function setupSubscribe() {
+    const opts = [["calendar.ics", "Everything (no weekly rides)"], ["calendar-denver.ics", "Denver area only"], ...Object.entries(DATA.categories).map(([k, l]) => [`calendar-${k}.ics`, l])];
+    $("#feed").innerHTML = opts.map(([f, l]) => `<option value="${f}">${esc(l)}</option>`).join("");
+    $("#feed").addEventListener("change", updateFeed);
+    updateFeed();
+    if (!DATA.siteUrl && /claude\.ai|claudeusercontent/.test(location.host)) {
+      $("#subNote").className = "note preview";
+      $("#subNote").textContent = "Preview copy: these links work once the site is hosted at its own address.";
+    }
+    const dlg = $("#subDlg");
+    $("#subOpen").addEventListener("click", () => { if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); });
+    $("#subClose").addEventListener("click", () => dlg.close());
+    dlg.addEventListener("click", (ev) => { if (ev.target === dlg) dlg.close(); });
+    $("#copyBtn").addEventListener("click", () => {
+      const input = $("#feedUrl"), btn = $("#copyBtn");
+      const done = () => { btn.textContent = "Copied"; btn.classList.add("done"); setTimeout(() => { btn.textContent = "Copy"; btn.classList.remove("done"); }, 1600); };
+      try { navigator.clipboard.writeText(input.value).then(done, () => input.select()); } catch (e) { input.select(); }
+    });
+  }
+
+  function renderSide() {
+    $("#regular").innerHTML = DATA.regular.map((r) =>
+      `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a><span class="when">${esc(r.when)}</span><span class="blurb">${esc(r.where)}</span></li>`).join("");
+    $("#sources").innerHTML = "Live events from " + DATA.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(", ") +
+      ". The rest are added by hand. Check the organizer's page before you go; mountain road dates depend on snow.";
+    $("#updated").textContent = "Updated " + new Date(DATA.generated).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    const n = DATA.events.filter((e) => !e.weekly).length;
+    $("#lede").innerHTML = `<span class="count">${n}</span> upcoming group rides, social rides, big tours, bike days and mountain road dates from clubs, shops and organizers. Subscribe and they show up in your own calendar.`;
+  }
+
+  function bind() {
+    $("#tabs").addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-cat]"); if (!b) return;
+      state.cat = b.dataset.cat; store.set("cat", state.cat); renderTabs(); render();
+    });
+    const sync = () => { renderTabs(); render(); };
+    $("#showExpected").checked = state.expected;
+    $("#showWeekly").checked = state.weekly;
+    $("#showExpected").addEventListener("change", (e) => { state.expected = e.target.checked; store.set("expected", state.expected); sync(); });
+    $("#showColorado").checked = state.colorado;
+    $("#showColorado").addEventListener("change", (e) => { state.colorado = e.target.checked; store.set("colorado", state.colorado); sync(); });
+    $("#showWeekly").addEventListener("change", (e) => { state.weekly = e.target.checked; store.set("weekly", state.weekly); sync(); });
+    $("#q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+    $("#list").addEventListener("click", (ev) => {
+      const b = ev.target.closest("[data-more]"); if (!b) return;
+      const card = b.closest(".ev"); card.classList.toggle("open");
+      b.textContent = card.classList.contains("open") ? "− less" : "+ more";
+    });
+  }
+
+  fetch("events.json", { cache: "no-cache" })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((data) => {
+      DATA = data;
+      if (state.cat !== "all" && !DATA.categories[state.cat]) state.cat = "all";
+      bind(); renderTabs(); render(); renderSide(); setupSubscribe();
+    })
+    .catch(() => { $("#list").innerHTML = `<div class="empty">The event list didn't load. Run python3 build.py, then reload.</div>`; });
+})();
+</script>

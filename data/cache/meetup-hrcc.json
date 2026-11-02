@@ -1,0 +1,22 @@
+[
+ {
+  "UID": "event_317108353@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045108Z",
+  "DTSTART": [
+   "2026-11-15T16:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-15T18:00",
+   false
+  ],
+  "SUMMARY": "HRCC Team Night",
+  "DESCRIPTION": "Highlands Ranch Cycling Club\nPeak cycling season may be ending, but we will still be riding through the fall/winter into the spring, including doing virtual zwift rides on bad weather days. Come join us for our fall Team Night at Mike's Bikes in Highlands Ranch.\n\nCome hang out, meet the club, and ask questions to find out what the Highlands Ranch Cycling Club (HRCC) is all about.",
+  "URL": "https://www.meetup.com/highlands-ranch-cycling-club/events/317108353/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261023T203606Z",
+  "LAST-MODIFIED": "20261023T203606Z",
+  "CLASS": "PUBLIC"
+ }
+]

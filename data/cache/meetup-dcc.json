@@ -1,0 +1,202 @@
+[
+ {
+  "UID": "event_316994722@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-11-04T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-04T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/316994722/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261015T140845Z",
+  "LAST-MODIFIED": "20261015T140845Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317088965@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-11-11T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-11T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/317088965/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261022T141218Z",
+  "LAST-MODIFIED": "20261022T141218Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317190744@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-11-18T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-18T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/317190744/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261029T142418Z",
+  "LAST-MODIFIED": "20261029T142418Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcpbhc@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-11-25T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-25T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcpbhc/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcqbdb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-12-02T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-02T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcqbdb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcqbmb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-12-09T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-09T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcqbmb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcqbvb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-12-16T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-16T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcqbvb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcqbfc@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-12-23T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-23T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcqbfc/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsyjcqbnc@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2026-12-30T08:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-30T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsyjcqbnc/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_qtqjnsykccbjb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045107Z",
+  "DTSTART": [
+   "2027-01-06T08:00",
+   false
+  ],
+  "DTEND": [
+   "2027-01-06T11:00",
+   false
+  ],
+  "SUMMARY": "Phil's Circuit Ride, Social 'B' Ride - Greenway, C-470",
+  "DESCRIPTION": "Denver Cycling Club (DCC)\nThis road bike ride will be WEATHER PERMITTING for the Fall/Winter so check back to make sure the ride is still on for the week and the start time. We'll decide on any additional 'features,' e.g., Valley Road, Dinosaur Ridge, Red Rocks, ... or none, based on who's riding. The ride is generally 35-45 miles.",
+  "URL": "https://www.meetup.com/denver-cycling-club-dcc/events/qtqjnsykccbjb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20210804T222215Z",
+  "LAST-MODIFIED": "20210804T222215Z",
+  "CLASS": "PUBLIC"
+ }
+]

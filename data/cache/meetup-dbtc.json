@@ -1,0 +1,62 @@
+[
+ {
+  "UID": "event_317202295@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045106Z",
+  "DTSTART": [
+   "2026-11-03T10:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-03T13:30",
+   false
+  ],
+  "SUMMARY": "Fox Hollow Adventure with Simone",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:30 AM Fun Plus H2 23 miles.** Meet Simone Caruthers (720-636-4884) at Fox Hollow Golf Course at the far east end of the parking lot (13410 Morrison Road). Starting at Fox Hollow we will ride east through a part of Bear Creek bike path up to Sister\u2019s park, through Bow Mar, Will head back through Grants ranch for a break and return. Some small rolling climbs, but mostly gradual elevation gains.",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317202295/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261030T064953Z",
+  "LAST-MODIFIED": "20261030T064953Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_316931729@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045106Z",
+  "DTSTART": [
+   "2026-11-04T10:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-04T13:00",
+   false
+  ],
+  "SUMMARY": "Red Rocks Loop Postponed to Nov 4th",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:00 AM FUN-H3/4-20 miles-SW** Red Rocks Loop Meet Patty Gaspar (303-618-5069) at the Stone House (Yale and Estes) Ride the smooth, shaded Bear Creek Trail to Fox Hollow Golf Course, over the dam, then along C-470 to climb through Dinosaur Ridge, then climb up to the Trading Post in Red Rocks and fly down to Morrison and a mellow (except for Morrison Road) return home on the Bear Creek Trail. Bring a picnic to celebrate our accomplishments.\n**Weather forecast is rain and cold. One site has 80% another 40% but not saying if in AM or PM. If it is under 50 degrees at start and rainy watch MeetUp to see if it is a go. Or call me. Sorry, I hate to scrub a ride, but I may have to.**",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/316931729/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261011T062046Z",
+  "LAST-MODIFIED": "20261011T062046Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317247313@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261102T045106Z",
+  "DTSTART": [
+   "2026-11-05T10:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-05T13:00",
+   false
+  ],
+  "SUMMARY": "Lakewood Adventure Ride with Diane",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:00 am FUN + 20miles, 1200 feet gain \u2013** Diane Short- Meet at the MeadowLark shopping center parking lot, 6th Ave at Garrison, SE side of 6th. Ride west through the Lakewood neighborhoods, Alameda Pkwy bike path towards C-470, then back SE neighborhoods, through Belmar park. Call Diane to register 303-271-9642 (land line). NOT on Meet UP!!\nRide will cancel or change dates depending on weather. **[https://ridewithgps.com/trips/415577839](https://ridewithgps.com/trips/415577839)**",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317247313/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T014459Z",
+  "LAST-MODIFIED": "20261102T014459Z",
+  "CLASS": "PUBLIC"
+ }
+]

@@ -1,0 +1,118 @@
+{
+  "_readme": "Live iCal feeds. {page} is replaced with 1, 2, 3... Options: category (default category, otherwise guessed from the title), region ('denver', 'colorado', or 'auto' = decide from location), requireKeywords (regex: keep only matching titles), dropTitles (regex), dropCategories (regex on the feed's own categories).",
+  "denverPlaces": [
+    "Denver",
+    "Aurora",
+    "Lakewood",
+    "Golden",
+    "Arvada",
+    "Westminster",
+    "Wheat Ridge",
+    "Englewood",
+    "Littleton",
+    "Centennial",
+    "Highlands Ranch",
+    "Parker",
+    "Castle Rock",
+    "Boulder",
+    "Superior",
+    "Louisville",
+    "Lafayette",
+    "Broomfield",
+    "Erie",
+    "Longmont",
+    "Lyons",
+    "Thornton",
+    "Northglenn",
+    "Commerce City",
+    "Brighton",
+    "Morrison",
+    "Evergreen",
+    "Idaho Springs",
+    "Nederland",
+    "Valmont",
+    "Northfield",
+    "Lone Tree",
+    "Greenwood Village",
+    "Federal Heights",
+    "Sedalia",
+    "Conifer"
+  ],
+  "coloradoPlaces": [
+    ", CO",
+    "Colorado",
+    "Kokopelli"
+  ],
+  "feeds": [
+    {
+      "id": "bicyclecolorado",
+      "name": "Bicycle Colorado",
+      "homepage": "https://bicyclecolorado.org/events/",
+      "url": "https://bicyclecolorado.org/events/list/page/{page}/?ical=1",
+      "maxPages": 8,
+      "region": "auto",
+      "dropCategories": "cyclocross|races|youth",
+      "keepIfTitle": "rally|ride|fondo|tour|century",
+      "dropTitles": "high school|league|summit"
+    },
+    {
+      "id": "meetup-dbtc",
+      "name": "Denver Bicycle Touring Club",
+      "homepage": "https://www.meetup.com/denver-bicycle-touring-club/",
+      "url": "https://www.meetup.com/denver-bicycle-touring-club/events/ical/",
+      "region": "denver",
+      "category": "group"
+    },
+    {
+      "id": "meetup-dcc",
+      "name": "Denver Cycling Club",
+      "homepage": "https://www.meetup.com/denver-cycling-club-dcc/",
+      "url": "https://www.meetup.com/denver-cycling-club-dcc/events/ical/",
+      "region": "denver",
+      "category": "group"
+    },
+    {
+      "id": "meetup-rmcc",
+      "name": "Rocky Mountain Cycling Club",
+      "homepage": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/",
+      "url": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/ical/",
+      "region": "denver",
+      "category": "group"
+    },
+    {
+      "id": "meetup-hrcc",
+      "name": "Highlands Ranch Cycling Club",
+      "homepage": "https://www.meetup.com/highlands-ranch-cycling-club/",
+      "url": "https://www.meetup.com/highlands-ranch-cycling-club/events/ical/",
+      "region": "denver",
+      "category": "group"
+    },
+    {
+      "id": "meetup-wfbg",
+      "name": "Women's Fun Biking Group",
+      "homepage": "https://www.meetup.com/womens-fun-biking-group/",
+      "url": "https://www.meetup.com/womens-fun-biking-group/events/ical/",
+      "region": "denver",
+      "category": "social",
+      "requireKeywords": "ride|bike|biking|cycl|e-bike",
+      "dropTitles": "anyone like to|communicating|sell, buy|tips|high tea"
+    },
+    {
+      "id": "meetup-pedals-pints",
+      "name": "Pedals and Pints",
+      "homepage": "https://www.meetup.com/bike-347/",
+      "url": "https://www.meetup.com/bike-347/events/ical/",
+      "region": "denver",
+      "category": "social"
+    },
+    {
+      "id": "meetup-denverfun",
+      "name": "Denver Fun (Meetup)",
+      "homepage": "https://www.meetup.com/denverfun/",
+      "url": "https://www.meetup.com/denverfun/events/ical/",
+      "region": "denver",
+      "category": "social",
+      "requireKeywords": "bike|biking|cycl|ride"
+    }
+  ]
+}
