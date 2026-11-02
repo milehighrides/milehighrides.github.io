@@ -229,22 +229,46 @@
     {
       "id": "critical-mass",
       "title": "Denver Critical Mass",
-      "rule": "last-friday",
-      "time": "17:30",
       "durationMin": 150,
       "category": "social",
-      "location": "Civic Center Park, Denver",
-      "url": "https://criticalmass.in/denver",
-      "description": "Leaderless monthly mass ride. Riders traditionally meet at Civic Center Park around 5:30 pm on the last Friday of the month. It's community-run, so the start point sometimes changes (Sunken Gardens Park has been used too)."
+      "location": "West High School, by Sunken Gardens Park, Denver",
+      "url": "https://denvercriticalmass.org/",
+      "description": "Leaderless monthly group ride and a demand for safer streets. Meet in front of West High School by Sunken Gardens Park. May to October: last Friday at 6:30pm. November to April: last Sunday at 12:30pm. Updates on Instagram @criticalmassdenver.",
+      "rules": [
+        {
+          "months": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "lastWeekday": "fri",
+          "time": "18:30"
+        },
+        {
+          "months": [
+            11,
+            12,
+            1,
+            2,
+            3,
+            4
+          ],
+          "lastWeekday": "sun",
+          "time": "12:30"
+        }
+      ]
     }
   ],
   "regular": [
     {
       "title": "Denver Critical Mass",
-      "when": "Last Friday monthly · 5:30pm",
-      "where": "Civic Center Park",
-      "url": "https://criticalmass.in/denver",
-      "blurb": "Leaderless group ride through downtown."
+      "when": "Last Fri 6:30pm (May–Oct) · last Sun 12:30pm (Nov–Apr)",
+      "where": "West High School, by Sunken Gardens Park",
+      "url": "https://denvercriticalmass.org/",
+      "blurb": "Leaderless monthly ride for safer streets. Instagram: @criticalmassdenver."
     },
     {
       "title": "Denver Cruisers",

@@ -221,15 +221,17 @@ def last_weekday(year, month, weekday):
 def expand_recurring(rec, today, horizon):
     out = []
     y, m = today.year, today.month
+    # Rules: [{"months": [5..10], "lastWeekday": "fri", "time": "18:30"}, ...]
+    days = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
     while True:
-        if rec["rule"] == "last-friday":
-            d = last_weekday(y, m, 4)
-        else:
-            raise ValueError(f"unknown rule {rec['rule']}")
+        rule = next((r for r in rec["rules"] if m in r["months"]), None)
+        if rule is None:
+            raise ValueError(f"{rec['id']}: no rule covers month {m}")
+        d = last_weekday(y, m, days[rule["lastWeekday"]])
         if d > horizon:
             break
         if d >= today:
-            start = f"{d.isoformat()}T{rec['time']}"
+            start = f"{d.isoformat()}T{rule['time']}"
             end_t = dt.datetime.fromisoformat(start) + dt.timedelta(minutes=rec.get("durationMin", 120))
             out.append({
                 "id": f"{rec['id']}-{d.isoformat()}",
