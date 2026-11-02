@@ -29,7 +29,11 @@ jobs:
       - name: Build site
         run: |
           OWNER="${{ github.repository_owner }}"
-          python3 build.py --site-url "https://${OWNER,,}.github.io/${{ github.event.repository.name }}/"
+          OWNER="${OWNER,,}"
+          NAME="${{ github.event.repository.name }}"
+          # A repo named <owner>.github.io is served at the root, with no path
+          if [ "${NAME,,}" = "$OWNER.github.io" ]; then URL="https://$OWNER.github.io/"; else URL="https://$OWNER.github.io/$NAME/"; fi
+          python3 build.py --site-url "$URL"
       - name: Save feed cache
         run: |
           git config user.name "calendar-bot"
