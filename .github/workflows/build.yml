@@ -28,11 +28,8 @@ jobs:
           python-version: "3.12"
       - name: Build site
         run: |
-          OWNER="${{ github.repository_owner }}"
-          OWNER="${OWNER,,}"
-          NAME="${{ github.event.repository.name }}"
-          # A repo named <owner>.github.io is served at the root, with no path
-          if [ "${NAME,,}" = "$OWNER.github.io" ]; then URL="https://$OWNER.github.io/"; else URL="https://$OWNER.github.io/$NAME/"; fi
+          # Custom domain (set in the repo's Pages settings and DNS)
+          URL="https://milehigh.bike/"
           python3 build.py --site-url "$URL"
       - name: Save feed cache
         run: |

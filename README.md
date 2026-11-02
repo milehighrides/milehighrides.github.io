@@ -36,7 +36,7 @@ Then open http://localhost:8000.
 1. Create a GitHub repo and push this folder to it.
 2. In the repo: **Settings → Pages → Source: GitHub Actions**.
 3. The workflow in `.github/workflows/build.yml` rebuilds every morning, pulls fresh
-   events from the feeds, and publishes to `https://<you>.github.io/<repo>/` (or `https://<org>.github.io/` for a repo named `<org>.github.io`). Live at https://milehighrides.github.io.
+   events from the feeds, and publishes to `https://<you>.github.io/<repo>/` (or `https://<org>.github.io/` for a repo named `<org>.github.io`). Live at https://milehigh.bike (milehighrides.github.io redirects there; DNS is at GoDaddy).
 
 Subscribers' calendar apps re-check the feed on their own (usually every few hours to a day).
 
