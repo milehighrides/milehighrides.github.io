@@ -1,8 +1,28 @@
 [
  {
+  "UID": "event_317259307@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-05T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-05T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Thursday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Thursday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/317259307/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T200732Z",
+  "LAST-MODIFIED": "20261102T200732Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317247267@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T191951Z",
+  "DTSTAMP": "20261103T125008Z",
   "DTSTART": [
    "2026-11-07T09:45",
    false
@@ -20,9 +40,49 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_jrkwbvyjcpbnb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-10T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-10T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/jrkwbvyjcpbnb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T221355Z",
+  "LAST-MODIFIED": "20261102T221355Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_nbkwbvyjcpbnb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-10T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-10T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/nbkwbvyjcpbnb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T201144Z",
+  "LAST-MODIFIED": "20261102T201144Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317230285@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T191951Z",
+  "DTSTAMP": "20261103T125008Z",
   "DTSTART": [
    "2026-11-11T08:30",
    false
@@ -40,23 +100,103 @@
   "CLASS": "PUBLIC"
  },
  {
-  "UID": "event_317246916@meetup.com",
+  "UID": "event_jrkwbvyjcpbwb@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261102T191951Z",
+  "DTSTAMP": "20261103T125008Z",
   "DTSTART": [
-   "2027-01-01T08:00",
+   "2026-11-17T17:30",
    false
   ],
   "DTEND": [
-   "2027-01-01T15:00",
+   "2026-11-17T19:30",
    false
   ],
-  "SUMMARY": "2027 RMCC New Year's Day Century",
-  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nPlease join us for what is usually one of our most popular rides of the year, the RMCC New Year's Day Century!\n\nThe route takes in the great flatter in Boulder and Larimer counties, with a few short climbs throw in, including Carter Lake and Masonville. The ride features wide-open roads, big shoulders that should be clear of snow/ice, and relatively manageable traffic.\n\nhttps://ridewithgps.com/routes/53217725\n\nLocation: Starts/ends at the US 36/McCaslin Park & Ride on the NW corner of the US-36/McCaslin Blvd interchange. We meet on the south end of the lot close to the light rail tracks.\n\nWe will meet at 8 AM with departure at 8:15 AM.\n\nSupport/regroup points:\n\n1. Lyons: Circle K, 24 miles\n2. Loveland: Sandy's, 63 miles\n3. Hygiene: Mountain Mercantile, 84 miles\n\nWhile we do regroup on a periodic basis, this should be considered a drop ride.\n\nLooking for something a little shorter? That's easy to do. Cutting off the whole part north of Hygiene will give you 58 miles. Skipping the Masonville loop will give you 80.\n\nNon-dues paying members are invited to join us on this ride, once you've done 3 rides with the club we do ask that you join: https://rockymountaincyclingclub.com/. It's only $25 for the year!\n\nThe event date could change depending on the weather and road conditions.",
-  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/317246916/",
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/jrkwbvyjcpbwb/",
   "STATUS": "CONFIRMED",
-  "CREATED": "20261102T012125Z",
-  "LAST-MODIFIED": "20261102T012125Z",
+  "CREATED": "20261102T221355Z",
+  "LAST-MODIFIED": "20261102T221355Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_nbkwbvyjcpbwb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-17T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-17T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/nbkwbvyjcpbwb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T201144Z",
+  "LAST-MODIFIED": "20261102T201144Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_jrkwbvyjcpbgc@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-24T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-24T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/jrkwbvyjcpbgc/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T221355Z",
+  "LAST-MODIFIED": "20261102T221355Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_nbkwbvyjcpbgc@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-11-24T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-24T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/nbkwbvyjcpbgc/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T201144Z",
+  "LAST-MODIFIED": "20261102T201144Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_jrkwbvyjcqbcb@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261103T125008Z",
+  "DTSTART": [
+   "2026-12-01T17:30",
+   false
+  ],
+  "DTEND": [
+   "2026-12-01T19:30",
+   false
+  ],
+  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/jrkwbvyjcqbcb/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261102T221355Z",
+  "LAST-MODIFIED": "20261102T221355Z",
   "CLASS": "PUBLIC"
  }
 ]
