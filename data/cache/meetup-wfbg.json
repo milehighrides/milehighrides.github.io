@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317234147@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
-  "DTSTART": [
-   "2026-11-03T10:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-03T12:30",
-   false
-  ],
-  "SUMMARY": "Nov 3~ 10 am Traditional/E-Bike Ride  DownTown~Maria Empanadas  18 Miles",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\n**Traditional Ride/E-Bike**\n**The speed will probably be 13-15 mph. Probably a more steady 15 mph or faster at times.**\n**The distance is about 18 paved miles total.**\n\nHello Ladies,\nLet's have a lovely ride and empanada snack downtown at Maria Empanadas. **We will meet at Pub and Grub parking lot at 10:00 am and will roll out at 10:15 am.** We will be riding north on the Platte River. Maria Empanadas is about 2 blocks further than REI. The manager will be reserving seats for us in their nice terrace or we can sit inside and watch our locked bikes from there.\n\nThey serve delicious empanadas that are already made. You just select the ones you want from a beautiful display case. They have probably 12 different ingredient empanadas along with 4 different breakfast empanadas. Plus coffee, orange juice, and decadent desert cookies.\n\n**Do bring your locks.**\n**Locking up Bikes:**\nWe can either bring our bikes in the terrace or we can just lock them to the bike rack that is very close.\n\n**If you know I do not have your cell number please send me yours and I will send you mine in private DM. Please label your emergency contact number and name clearly in your helmet.**\n\n\\~ As a courtesy to riders please keep your RSVP current.\n\\~ This is a participate at your own risk event. By signing up for this event you acknowledge that you are solely responsible for your own safety.\n\\~ Please text me if you have any questions.\n\nLooking forward to seeing you there!!\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317234147/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261101T023028Z",
-  "LAST-MODIFIED": "20261101T023028Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317260231@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2026-11-04T13:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2026-12-01T18:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_302296589@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2026-12-31T19:00",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_300630382@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_300630407@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125009Z",
+  "DTSTAMP": "20261104T124936Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false

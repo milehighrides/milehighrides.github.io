@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317202295@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125007Z",
-  "DTSTART": [
-   "2026-11-03T10:30",
-   false
-  ],
-  "DTEND": [
-   "2026-11-03T13:30",
-   false
-  ],
-  "SUMMARY": "Fox Hollow Adventure with Simone",
-  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:30 AM Fun Plus H2 23 miles.** Meet Simone Caruthers (720-636-4884) at Fox Hollow Golf Course at the far east end of the parking lot (13410 Morrison Road). Starting at Fox Hollow we will ride east through a part of Bear Creek bike path up to Sister\u2019s park, through Bow Mar, Will head back through Grants ranch for a break and return. Some small rolling climbs, but mostly gradual elevation gains.",
-  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317202295/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261030T064953Z",
-  "LAST-MODIFIED": "20261030T064953Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_316931729@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125007Z",
+  "DTSTAMP": "20261104T124934Z",
   "DTSTART": [
    "2026-11-04T10:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317247313@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261103T125007Z",
+  "DTSTAMP": "20261104T124934Z",
   "DTSTART": [
    "2026-11-05T10:00",
    false
