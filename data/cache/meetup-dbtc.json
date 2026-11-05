@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_316931729@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261104T124934Z",
-  "DTSTART": [
-   "2026-11-04T10:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-04T13:00",
-   false
-  ],
-  "SUMMARY": "Red Rocks Loop Postponed to Nov 4th",
-  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:00 AM FUN-H3/4-20 miles-SW** Red Rocks Loop Meet Patty Gaspar (303-618-5069) at the Stone House (Yale and Estes) Ride the smooth, shaded Bear Creek Trail to Fox Hollow Golf Course, over the dam, then along C-470 to climb through Dinosaur Ridge, then climb up to the Trading Post in Red Rocks and fly down to Morrison and a mellow (except for Morrison Road) return home on the Bear Creek Trail. Bring a picnic to celebrate our accomplishments.\n**Weather forecast is rain and cold. One site has 80% another 40% but not saying if in AM or PM. If it is under 50 degrees at start and rainy watch MeetUp to see if it is a go. Or call me. Sorry, I hate to scrub a ride, but I may have to.**",
-  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/316931729/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261011T062046Z",
-  "LAST-MODIFIED": "20261011T062046Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317247313@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261104T124934Z",
+  "DTSTAMP": "20261105T125335Z",
   "DTSTART": [
    "2026-11-05T10:00",
    false

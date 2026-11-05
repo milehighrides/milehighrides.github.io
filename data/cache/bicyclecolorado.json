@@ -1,27 +1,6 @@
 [
  {
   "DTSTART": [
-   "2026-11-04T07:30",
-   false
-  ],
-  "DTEND": [
-   "2026-11-04T09:00",
-   false
-  ],
-  "DTSTAMP": "20260820T022435Z",
-  "CREATED": "20260723T025405Z",
-  "LAST-MODIFIED": "20260820T022435Z",
-  "UID": "10001431-1793777400-1793782800@bicyclecolorado.org",
-  "SUMMARY": "Rise n Ride Commuter Group Bicycle Rides",
-  "DESCRIPTION": "Join Community Cycles for Rise n\u2019 Ride, a free weekly group bike ride designed to help people build confidence biking for transportation. Whether you\u2019re new to commuting by bike or looking for a supportive group to ride with, everyone is welcome. The ride meets every Wednesday morning at the US 36/McCaslin Park-n-Ride (North Side) at 7:20am and follows a comfortable pace with experienced ride leaders. Learn more about bike commuting, connect with fellow riders, and discover how biking can become part of your daily routine.",
-  "URL": "https://bicyclecolorado.org/event/rise-n-ride-commuter-group-bicycle-rides/2026-11-04/",
-  "LOCATION": "McCaslin Park n Ride, Superior, CO, United States",
-  "CATEGORIES": "Group Rides",
-  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/07/Rise-N-Ride-Flyer.png",
-  "ORGANIZER": "MAILTO:sandee@communitycycles.org"
- },
- {
-  "DTSTART": [
    "2026-11-07",
    true
   ],
