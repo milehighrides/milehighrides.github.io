@@ -1,48 +1,8 @@
 [
  {
-  "UID": "event_317017251@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
-  "DTSTART": [
-   "2026-11-05T16:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-05T19:00",
-   false
-  ],
-  "SUMMARY": "Thursday Evening Paddle at Soda Lake \ud83c\udfc4\u200d\u2642\ufe0f\ud83d\udef6",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nHi everyone!\nI\u2019ll be hosting a weekly paddle event at Soda Lake every Thursday at 4:00 PM for the next couple of months\u2014or until the water gets too cold. Bring your own SUP or kayak, along with a PFD and any other required safety gear.\nAll experience levels are welcome. I hope you can join us!\n**\ud83d\ude97 ENTRANCE FEE**\nBear Creek Lake Park charges a **$15 entrance fee per vehicle**.\n**\ud83d\udd54 START TIME**\nSince it\u2019s getting dark earlier, we\u2019ll meet at **4:00 PM** and start paddling at **4:30 PM**.\n**\ud83d\udef6 RENTALS**\nNo rentals at this time\n\n**\u203c\ufe0f DISCLAIMERS**\n\n* All aquatic and outdoor recreational activities are undertaken at your own risk.\n* The event may be canceled or delayed due to rain, thunder, lightning, hail, high winds, or other unsafe conditions. Afternoon storms sometimes pass quickly, so I\u2019ll post an update if conditions improve and we can safely paddle afterward.",
-  "URL": "https://www.meetup.com/denverfun/events/317017251/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261016T222251Z",
-  "LAST-MODIFIED": "20261016T222251Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_317201789@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
-  "DTSTART": [
-   "2026-11-05T16:45",
-   false
-  ],
-  "DTEND": [
-   "2026-11-05T18:00",
-   false
-  ],
-  "SUMMARY": "\ud83e\udd38 Gym Squad | FREE LES MILLS SHAPES \ud83d\udd25 @ VASA (Centennial)",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**Let's strengthen, sweat, and have some fun together!** \ud83d\udcaa\ud83d\udd25\ud83d\ude4c\n\nJoin us for **LES MILLS SHAPES**, a 60-minute, low-impact workout focused on core strength, balance, and stability. No experience needed \u2014 just bring your water bottle and good vibes!\n\n\ud83c\udfa5 **Curious what the workout looks like?** Check out this [LES MILLS SHAPES preview](https://www.youtube.com/watch?v=WAoy3ZKkMfI)! \ud83d\udc40\n\n**\u2728 We create the space \u2014 you bring the energy!**\n\n\ud83d\udccd **VASA Fitness (Centennial Willow Creek)**\n8200 S Quebec St, Centennial, CO 80112\n\n\ud83d\udd54 **Thursdays at 5 PM** \\| Group Fitness Room\n\ud83d\udc4b **Meet at 4:45 PM** near the front desk.\n\n**\ud83c\udf9f\ufe0f FREE GUEST PASSES!**\n**First-time visitors:** Grab your [FREE 1-Day Trial Pass](https://vasafitness.com/trial/) on Monday! It's valid for 24 hours after activation, so don't activate it too early!\n\n\ud83d\udccd **IMPORTANT:** Select **Centennial Willow Creek** when registering. Bring a photo ID for check-in!\n\n\ud83c\udf89 **Already used your free trial?** I have **2 guest passes available each day until 11/18!** \ud83d\ude4c Message me if you'd like one. **First come, first served!**\n\n**\u2728 MORE THAN JUST SHAPES!**\nCome early or stay after class to enjoy VASA's amenities!\n\n\ud83c\udfca Indoor pool & hot tub\n\ud83e\uddd6 Sauna & steam room\n\ud83d\udc86 Massage lounge & tanning\n\ud83c\udfc0 Basketball court\n\ud83c\udfcb\ufe0f Strength & cardio equipment\n\n\u26a0\ufe0f Some amenities and classes may be restricted with the free guest pass.\n\n\ud83d\udc65 **Limited spots!** Please update your RSVP if plans change. **Reliable RSVPs get priority!** \ud83d\ude0a",
-  "URL": "https://www.meetup.com/denverfun/events/317201789/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261030T051359Z",
-  "LAST-MODIFIED": "20261030T051359Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_316246099@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-06T10:00",
    false
@@ -62,7 +22,7 @@
  {
   "UID": "event_317230240@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-06T17:00",
    false
@@ -82,7 +42,7 @@
  {
   "UID": "event_316995201@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-06T19:00",
    false
@@ -102,7 +62,7 @@
  {
   "UID": "event_316759993@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-07T07:00",
    false
@@ -122,7 +82,7 @@
  {
   "UID": "event_316443162@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-07T08:00",
    false
@@ -142,7 +102,7 @@
  {
   "UID": "event_316942728@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-07T09:00",
    false
@@ -162,7 +122,7 @@
  {
   "UID": "event_317041229@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-08T08:45",
    false
@@ -182,7 +142,7 @@
  {
   "UID": "event_317142019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261105T125338Z",
+  "DTSTAMP": "20261106T125058Z",
   "DTSTART": [
    "2026-11-08T11:00",
    false
@@ -191,12 +151,52 @@
    "2026-11-08T13:00",
    false
   ],
-  "SUMMARY": "The Breakfast Club: Elevated Brunch & Conversation - 8 Seats - Join Waitlist",
+  "SUMMARY": "The Breakfast Club: Elevated Brunch & Conversation - 6 Seats - Join Waitlist",
   "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nWe are taking our weekend momentum into the daytime with an intimate, 8-person table focused on great food and actual conversation. A full bar is available on-site for those partaking, but the primary focus is elevated food and sharp discussion, including, if you like, of the...\n**Dress Code: Elevated Daytime** Brunch is not an excuse for lazy gym clothes. Keep your aesthetic sharp, particularly you...\n\n* **Men:** Clean, pressed button-downs, collared shirts, or structured daytime knits paired with tailored denim or chinos. No athletic wear, gym tanks, or sloppy graphic tees. We should impress the...\n* **Women:** Chic daytime casual, stylish knits, or casual dresses, or similar. Never tell a lady how to dress, just meet her at...\n\n**Check-In & Seating Rules (Strict)**\n\n* **Meeting Point:** Meet directly at the front host stand 15 minutes before our reservation time. We check in as a unit, because of the...\n* **Seating Policy:** Busy brunch spots do not seat incomplete parties. The host stand will only seat us once the entire group is physically present. If you are late, you risk forfeiting your seat to the restaurant's walk-in list, which is completely outside our control. This is why we have a...\n\n**Roster & Waitlist Mechanics (Read Before Messaging)**\n\n* **Capacity:** Our table holds 8 seats total, filled from...\n* **The Waitlist:** Join the waitlist. I occasionally manually review, message people, and move them to attending from waitlist as the event date nears. Waitlist rank does not matter, I aim to balance the table dynamic. So make your plans before...\n* **The 48-Hour Lock:** Do not RSVP unless you are 100% committed. Cancellations within 48 hours of the event prevent waitlisted members from making plans and are treated as no-shows. No-shows receive a soft ban from all future curated events (removing a soft ban requires reimbursing twice the reservation cost to the host, goes to shared appetizers). Life happens - if a genuine emergency occurs, DM me directly. Silent drops trigger the penalty automatically.",
   "URL": "https://www.meetup.com/denverfun/events/317142019/",
   "STATUS": "CONFIRMED",
   "CREATED": "20261026T072257Z",
   "LAST-MODIFIED": "20261026T072257Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317067068@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261106T125058Z",
+  "DTSTART": [
+   "2026-11-09T17:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-09T21:00",
+   false
+  ],
+  "SUMMARY": "\ud83c\udfd3 Pickleball Social \u2013 All Levels Welcome! Make New Friends with Zhen !",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.**\n\nwe\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n\\#\\#\\# \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* we usually meet on courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n* Text Zhen @ +19706319482 if you have any questions\n\n\\#\\#\\# \ud83d\udd52 When\n\n* Come when you can, leave when you must.\n\n\\#\\#\\# \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n* [ ] **Snacks to Share with Friends and Socialize**\n\n\\> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
+  "URL": "https://www.meetup.com/denverfun/events/317067068/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261021T001859Z",
+  "LAST-MODIFIED": "20261021T001859Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317140249@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261106T125058Z",
+  "DTSTART": [
+   "2026-11-09T18:50",
+   false
+  ],
+  "DTEND": [
+   "2026-11-09T20:00",
+   false
+  ],
+  "SUMMARY": "\ud83d\udc83 Gym Squad | FREE Zumba \ud83c\udfb6 w/Jason @ VASA (Denver)",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**Let's dance, sweat, laugh, and kick off the week with some Zumba fun!** \ud83c\udfb6\ud83d\udc83\ud83d\udd25\n\nNo dance experience needed! Just bring your water bottle, energy, and good vibes. Come solo or bring friends \u2014 everyone is welcome! \ud83d\ude4c\n\n\ud83d\udcac **Looking for gym buddies?** Join our WhatsApp group, [VASA Gym Squad](https://chat.whatsapp.com/Ffo5LwzKmFi26NWP8gOCmk?s=cl&p=i&mlu=4&ilr=4&iam=2) , and let\u2019s get moving together! \ud83d\udcaa\ud83d\udd25\n\n**\u2728 We create the space \u2014 you bring the energy!**\n\n\ud83d\udccd **VASA Fitness (Jewell & Sheridan)**\n1955 S Sheridan Blvd, Denver, CO 80227\n\n\ud83d\udd56 **Mondays at 7 PM** \\| Group Fitness Room\n\ud83d\udc4b **Meet at 6:50 PM** by the couches across from the front desk.\n\n**\ud83c\udf9f\ufe0f FREE GUEST PASSES!**\n**First-time visitors:** Grab your [FREE 1-Day Trial Pass](https://vasafitness.com/trial/) on Monday! It's valid for 24 hours after activation, so don't activate it too early!\n\n\ud83d\udccd **IMPORTANT:** Make sure to select **VASA Fitness (Jewell & Sheridan)** when registering.\n\n\ud83d\udcf1 VASA will text you your pass! Bring a photo ID and arrive early for check-in. **No text or email?** No worries! The front desk can look you up using your phone number. \ud83d\ude0a\n\n\ud83c\udf89 **Already used your free trial?** I have **2 guest passes available each day until 11/18!** \ud83d\ude4c Just message me if you'd like one. **First come, first served!**\n\n**\u2728 MORE THAN JUST ZUMBA!**\nCome early or stay after class to enjoy VASA's amenities!\n\n\ud83c\udfca Indoor pool & hot tub\n\ud83e\uddd6 Sauna & steam room\n\ud83c\udfc0 Basketball court\n\ud83c\udfcb\ufe0f Strength & cardio equipment\n\n\u26a0\ufe0f Some amenities and classes may be restricted with the free guest pass.\n\n\ud83d\udc65 **Limited spots!** Please update your RSVP if plans change. **Reliable RSVPs get priority!** \ud83d\ude0a",
+  "URL": "https://www.meetup.com/denverfun/events/317140249/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261026T022742Z",
+  "LAST-MODIFIED": "20261026T022742Z",
   "CLASS": "PUBLIC"
  }
 ]
