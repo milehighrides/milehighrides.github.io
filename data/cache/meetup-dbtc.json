@@ -1,8 +1,28 @@
 [
  {
+  "UID": "event_317321976@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261107T123734Z",
+  "DTSTART": [
+   "2026-11-08T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-08T14:00",
+   false
+  ],
+  "SUMMARY": "Mellow Winter Ride with Donald",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n* **DBTC Rides \u2013 Mellow Winter ride**\nSunday, November 8th - Crown Hill Park \u2013 26th and Garland St.\n*\n**11:00 AM Intermediate H2-NW-25-+1075\u2019 elevation gain**. Crown Hill Park to West 72nd Avenue return on Easly and Clear Creek Trail.\n* [https://ridewithgps.com/routes/57694914?via=o2HAsi274dZk9ZDdWI1Ckw](https://ridewithgps.com/routes/57694914?via=o2HAsi274dZk9ZDdWI1Ckw)\nThe pace will be Mellow Intermediate with regrouping to keep everyone together.\nPlease gather at the restroom to meet your ride guide.\nRain or wet roads will cancel. Call or text me with questions.\nDonald \u2013 720-785-0616",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317321976/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261107T020851Z",
+  "LAST-MODIFIED": "20261107T020851Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317310542@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261106T125055Z",
+  "DTSTAMP": "20261107T123734Z",
   "DTSTART": [
    "2026-11-09T10:30",
    false
@@ -22,7 +42,7 @@
  {
   "UID": "event_317310655@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261106T125055Z",
+  "DTSTAMP": "20261107T123734Z",
   "DTSTART": [
    "2026-11-11T10:30",
    false
