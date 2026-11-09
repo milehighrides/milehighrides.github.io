@@ -2,7 +2,7 @@
  {
   "UID": "event_317293821@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-10T17:30",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317293849@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-10T17:30",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317230285@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-11T08:30",
    false
@@ -62,7 +62,7 @@
  {
   "UID": "event_jrkwbvyjcpbwb@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-17T17:30",
    false
@@ -82,7 +82,7 @@
  {
   "UID": "event_nbkwbvyjcpbwb@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-17T17:30",
    false
@@ -100,9 +100,29 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317348670@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261109T125537Z",
+  "DTSTART": [
+   "2026-11-22T19:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-22T21:00",
+   false
+  ],
+  "SUMMARY": "RMCC Jersey Order",
+  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nIt's that time of the year again--the RMCC annual jersey order is now ready to go! This year feature the same overall design that we have used the past few years, but with different color options. That should appeal to those looking to buy for the first time and for long-time club members who want a fresh look!\nThe Alchemist store will be open until November 22nd for us to order clothing for next season.\n\nHere is the link to the store: [https://teamalchemist.com/rmcc/](https://teamalchemist.com/rmcc/)\nThe password is: RMCC (Note: All caps!)\n\nAll clothing items are made-to-order. Delivery is expected in Q1-2027. Alchemist will be handling all of the shipping using USPS Priority Mail.\n\nItems available for sale include:\n\n-4 short-sleeve jersey color options (color block, high-viz yellow, white, and black), available in multiple cuts and sizing.\n-Long-Sleeve Thermal jersey in red (unisex sizing)\n-Bibs or shorts (men's sizing or women's sizing)\n-Warmers (arm, knee, and leg; unisex sizing)\n-High vis yellow wind jackets (unisex sizing)\nThe short-sleeve jerseys are available in both the \"Epic Pro\" and the \"Aero Pro\" design. The Aero Pro Race Jersey is based on Pro Tour styling and fit. It features longer, fitted sleeves and a low collar with lay-flat powerband hem. The Epic Pro option is what we have used for many years, with a higher collar and shorter sleeves. The pricing of both options is the same.\n\nThe clothing we buy from Alchemist isn't necessarily the cheapest you can buy, but having used them for many years we can attest to the quality and durability of their stuff. I'm still wearing everything I've ever bought from them.\n\nAll sales are FINAL! We will NOT accept exchanges or returns. Honestly, when we've tried doing returns in the past it becomes a lot of work to try and resell the items and the club often ends up eating the cost. As we are a break-even operation, we just can't do that going forward. If you do not know your size, please make arrangements with Alchemist to try on samples (https://teamalchemist.com/contact-us/) or contact a fellow club member to try on their clothing.\nQuestions? Please feel free to message me.\nOnce again, a big thanks goes out to Jeff at Alchemist and Andrew Dranginis for putting all of this together!\n\n(Note: There is no in-person Meetup for this. This posting is informational only.)",
+  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/317348670/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261109T001528Z",
+  "LAST-MODIFIED": "20261109T001528Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317292675@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-24T17:30",
    false
@@ -122,7 +142,7 @@
  {
   "UID": "event_317292691@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-11-24T17:30",
    false
@@ -142,7 +162,7 @@
  {
   "UID": "event_jrkwbvyjcqbcb@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-12-01T17:30",
    false
@@ -162,7 +182,7 @@
  {
   "UID": "event_nbkwbvyjcqbcb@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
+  "DTSTAMP": "20261109T125537Z",
   "DTSTART": [
    "2026-12-01T17:30",
    false
@@ -177,26 +197,6 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261102T201144Z",
   "LAST-MODIFIED": "20261102T201144Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_jrkwbvyjcqblb@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261108T123543Z",
-  "DTSTART": [
-   "2026-12-08T17:30",
-   false
-  ],
-  "DTEND": [
-   "2026-12-08T19:30",
-   false
-  ],
-  "SUMMARY": "RMCC Tuesday Night Climbing After Dark!",
-  "DESCRIPTION": "Rocky Mountain Cycling Club RMCC\nJoin us for the RMCC tradition: Tuesday night climbing **after dark!** Sunset may be creeping back to 6 pm, but we don't let that get us down. It's time to grab some lights and keep on climbing. The darkness can't hold us back: we meet at Beverly Heights Park at the base of Lookout every Thursday, weather permitting, until the warmth and daylight returns in the spring. We'll group up about 5:25pm for introductions, route overview, sign-in, and other formalities. We plan to roll at about 5:30.\n\nWe'll follow our usual route (see below), though we may make changes depending on weather and road conditions. Snowfall usually melts within a few days, but icy conditions may require riding up or down US 40 instead. Changes will largely be a game-time decision, covered in the route walk-through and potentially adjusted as we progress.\n\n[https://www.strava.com/routes/15959177](https://www.strava.com/routes/15959177)\n\nAs is the nature of rides with long climbs, this is a drop then regroup ride. Generally speaking, if you're able to complete Lookout solo in \\~30 minutes you'll be able to rejoin at the regroup points. These rides will go at a more conversational pace (for some), and we will roll from the parking area by Buffalo Bill's grave at 6:05. For the sake of the safety and efficiency of the ride, this does mean that we will leave riders behind if they miss the time cut-off. For you Zwifters and powermeter users, a power output of 2.7 w/kg is a good starting point. Expect some separation on the climbs, with opportunities to rejoin at one of several regroup points. Being comfortable in a draft will help on some of the flat / roller sections.\nThis event will be canceled if weather or roadways are not conducive for a safe, fun ride. We'll cancel as early as possible, however be prepared for game-time calls as conditions can be unpredictable in the foothills.\n\n**Note: Strong, dependable lights are required for this ride.** Also, note that temps at the top in Genesee can be **10-20 degrees cooler** than those at the start, so layering is essential for a successful ride. Gloves (maybe even a light pair and a heavy pair), a hat, shoe covers, and windproof layers have all been used successfully by riders on this ride. Finally, this ride will be canceled if temps at the start are forecast to be below 25 degrees.\nWe hope to see you out there!",
-  "URL": "https://www.meetup.com/rocky-mountain-cycling-club-rmcc/events/jrkwbvyjcqblb/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261102T221355Z",
-  "LAST-MODIFIED": "20261102T221355Z",
   "CLASS": "PUBLIC"
  }
 ]
