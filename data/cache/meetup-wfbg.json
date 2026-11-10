@@ -1,8 +1,28 @@
 [
  {
+  "UID": "event_317364716@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261110T125140Z",
+  "DTSTART": [
+   "2026-11-12T10:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-12T13:30",
+   false
+  ],
+  "SUMMARY": "\ud83d\udeb4\ud83c\udffb\u200d\u2640\ufe0fCherry Creek Trail to  Castlewood Canyon",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\n**Hello Ladies!!!**\n**Please Note:** **This ride is intended for E-bike riders and advanced traditional (classical) cyclists due to the 32-mile distance and pace.**\n\n**Distance:** Approximately 32 miles round trip\n**Pace:** Approximately 15 mph, sometimes a little slower and sometimes a little faster.\n**Terrain:** Paved trail with some gentle hills and one steeper hill near the end.\n\n**Meeting Time & Departure**\nWe'll meet at Parker Recreation Center at 10:00 AM, with wheels rolling by 10:15 AM. We'll head south on the Cherry Creek Trail toward Castlewood Canyon. Once we arrive, we'll take a nice break, enjoy our snacks, and have some time to relax before heading back the way we came.\nThere is a fairly steep hill toward the end of the ride. It shouldn't be a problem for our E-bike riders, but it may be a little more challenging for those on traditional bikes. No need to rush; take it at your own pace!\n\n**A Few Things to Bring**\nPlease bring plenty of water and some snacks or lunch to enjoy during our break.\n\n**Safety & Important Information**\nAs always, everyone rides at their own risk and is responsible for their own safety. Please ride within your abilities, maintain a safe distance from other riders, and be courteous to other trail users. We want everyone to have a fun and enjoyable ride!\n\nPlease make sure your emergency contact person's name and phone number are clearly written and labeled on the inside of your helmet.\nAlso, if you haven't already sent me your cell phone number, please do so. I'll be happy to send you mine as well so we can stay in touch if needed.\nLooking forward to seeing everyone there!!\nVicky E.\ud83d\udeb4\n[![Google map of the user's next upcoming event's location](https://maps-googleapis.meetup.com/maps/api/staticmap?center=39.53582%2C+-104.787056&zoom=15&size=620x160&format=png&scale=1&key=AIzaSyBhcQiQISkjMBwLAugJj8V78nMPfitnr44&markers=color%3A0xF65858%7C39.53582%2C+-104.787056)](https://www.google.com/maps/search/?api=1&query=39.53582%2C%20-104.787056)",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317364716/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261110T032641Z",
+  "LAST-MODIFIED": "20261110T032641Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317328297@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2026-11-13T09:30",
    false
@@ -22,7 +42,7 @@
  {
   "UID": "event_317329239@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2026-11-16T10:00",
    false
@@ -40,9 +60,49 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317365925@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261110T125140Z",
+  "DTSTART": [
+   "2026-11-17T10:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-17T11:30",
+   false
+  ],
+  "SUMMARY": "\ud83d\udeb4 Short & Fun Ride for Beginner Traditional Bikers",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Everyone!!!\nThis ride is for anyone who is new to traditional biking or considers themselves a beginner and would enjoy a short, fun, and relaxed group ride!\n**Distance:** Approximately 8 miles round trip.\n**Speed:** Between 12 and 14 mph.\n**Meeting Time & Departure:**\nWe will meet at About Time Pub & Grub on Tuesday, November 17, at 10:00 AM and plan to leave by 10:15 AM.\n**Our Route:**\nWe will head south on the Platte River Trail to Nixon Coffee House, which is conveniently located right along the trail.\nWe will take a short 10\u201315 minute break there to rest, have some water, or enjoy a snack. I'm pretty sure the coffee house will be closed, but we can still use their outdoor tables and chairs.\n**About the Trail:**\nThe trail is nicely paved, relatively flat, and runs alongside the beautiful Platte River. It's a great route for a short and enjoyable ride!\n**A Couple of Things:**\nPlease send me your cell phone number if I don't already have it, and I'll send you mine in return.\nAlso, please make sure your emergency contact's phone number is clearly labeled inside your helmet.\n**A Few Meetup Reminders:**\n\n* This is a participate-at-your-own-risk event. By signing up, you acknowledge that you are solely responsible for your own safety and enjoyment.\n* As a courtesy to others, please keep your RSVP current.\n\nPlease let me know if you have any questions.\nLooking forward to a fun ride with everyone!\nSee you then!\nVicky E.\n\n*",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317365925/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261110T075922Z",
+  "LAST-MODIFIED": "20261110T075922Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317366056@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261110T125140Z",
+  "DTSTART": [
+   "2026-11-17T12:15",
+   false
+  ],
+  "DTEND": [
+   "2026-11-17T14:15",
+   false
+  ],
+  "SUMMARY": "\ud83d\udeb4 Patti's Bridge & Waterfall Ride for Traditional Bikers",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\n**Traditional Bike Ride \u2013 South Platte River Trail**\nJoin us for a beautiful scenic ride along the South Platte River Trail to a lovely little destination!\n\nWe'll meet on **Tuesday, November 17, at 12:15 PM** and plan to roll out by **12:00PM**.\n\nWe'll ride from About Time Pub & Grub to a charming little creek bridge and bench area just past C-470, known as **Patti's Bridge/Bench**. It's a scenic spot with a little waterfall, making it a perfect place to take a short break, relax, and enjoy the surroundings.\n**Ride Details:**\n\n* **Distance:** Approximately 15 miles round trip\n* **Pace:** Moderate, around 13\u201315 mph, possibly a little faster at times\n* **Terrain:** Relatively flat paved trail\n* **Meeting Time:** 12:15 PM\n* **Departure:** 12:30 PM\n\n**A Few Friendly Reminders:**\n\\~ As a courtesy to other riders, please keep your RSVP current.\n\\~ If you think I don't have your cell phone number, please send me a private message, and I'll send you mine.\n\\~ Please clearly label your emergency contact's phone number inside your helmet.\n\\~ This is a participate-at-your-own-risk event. By signing up, you acknowledge that you are solely responsible for your own safety.\n\\~ Please text me or leave a comment if you have any questions.\nLooking forward to another fun ride with everyone! Hope to see you there!\n**Vicky E.**",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317366056/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261110T082627Z",
+  "LAST-MODIFIED": "20261110T082627Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -62,7 +122,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -82,7 +142,7 @@
  {
   "UID": "event_302296589@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2026-12-31T19:00",
    false
@@ -102,7 +162,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -122,7 +182,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
+  "DTSTAMP": "20261110T125140Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -137,46 +197,6 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20240415T192016Z",
   "LAST-MODIFIED": "20240415T192016Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_300630382@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
-  "DTSTART": [
-   "2039-01-01T01:00",
-   false
-  ],
-  "DTEND": [
-   "2039-01-01T03:00",
-   false
-  ],
-  "SUMMARY": "WEEKEND RIDERS - Communicating and contacting other  Members~RSVP if interested!",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Weekend Bikers!!,\n\nLet other members know if you would like to bike on the weekends by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride on the weekends and make plans to ride. In addition, if a member wants to be an Event Organizer to plan weekend bike rides just let me know. But, in the meantime, this is a great meetup to find out and communicate with other bikers who would like to ride on weekends.\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630382/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240425T051434Z",
-  "LAST-MODIFIED": "20240425T051434Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_300630407@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125538Z",
-  "DTSTART": [
-   "2039-01-01T01:00",
-   false
-  ],
-  "DTEND": [
-   "2039-01-01T03:00",
-   false
-  ],
-  "SUMMARY": "EVENING  RIDERS - Communicating and contacting other Members~RSVP if interested!",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Evening Bikers!!,\n\nLet other members know if you would like to bike in the evenings by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride in the evening and make plans to ride. In addition, if a member wants to be an Event Organizer to plan evening bike rides just let me know. But, in the meantime, this is a great meetup post to find out and communicate with other bikers who would like to ride on evenings.\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630407/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240425T052042Z",
-  "LAST-MODIFIED": "20240425T052042Z",
   "CLASS": "PUBLIC"
  }
 ]

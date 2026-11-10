@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317310542@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125536Z",
-  "DTSTART": [
-   "2026-11-09T10:30",
-   false
-  ],
-  "DTEND": [
-   "2026-11-09T13:30",
-   false
-  ],
-  "SUMMARY": "Westwoods Adventure with Simone",
-  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:30AM FUN/FUN PLUS-H2-22-NW** Meet Simone Caruthers(720-636-2884) at Anderson Park (44th & Field) for a ride west on the Clear Creek Trail to Easley Rd, which we will take north to the Blunn Trail and the west side of the Westwoods Golf Course along the Ralston Creek Trail. After a break we will return via Virgil Way and Easley Rd leading us to the Clear Creek Trail and back to the park.",
-  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317310542/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261106T073300Z",
-  "LAST-MODIFIED": "20261106T073300Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317310655@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125536Z",
+  "DTSTAMP": "20261110T125138Z",
   "DTSTART": [
    "2026-11-11T10:30",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317341431@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261109T125536Z",
+  "DTSTAMP": "20261110T125138Z",
   "DTSTART": [
    "2026-11-12T22:30",
    false
