@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317362878@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
-  "DTSTART": [
-   "2026-11-10T18:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-10T22:00",
-   false
-  ],
-  "SUMMARY": "\ud83c\udfd3 Pickleball Social \u2013 All Levels Welcome! Make New Friends with Zhen !",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.**\n\nwe\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n\\#\\#\\# \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* we usually meet on courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n* Text Zhen @ +19706319482 if you have any questions\n\n\\#\\#\\# \ud83d\udd52 When\n\n* Come when you can, leave when you must.\n\n\\#\\#\\# \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n* [ ] **Snacks to Share with Friends and Socialize**\n\n\\> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
-  "URL": "https://www.meetup.com/denverfun/events/317362878/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261109T234229Z",
-  "LAST-MODIFIED": "20261109T234229Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317097716@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-11T17:45",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_316835393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-11T18:00",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317098373@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-11T18:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_317274448@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-11T18:30",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317109026@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-12T16:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_317362885@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-12T18:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_317125206@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-13T17:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_316835396@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-13T19:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_317350264@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261110T125141Z",
+  "DTSTAMP": "20261111T125302Z",
   "DTSTART": [
    "2026-11-14T07:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261109T022919Z",
   "LAST-MODIFIED": "20261109T022919Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317364492@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261111T125302Z",
+  "DTSTART": [
+   "2026-11-14T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-14T14:00",
+   false
+  ],
+  "SUMMARY": "Let's Bike Chapman Loop Gravel(14.9 mi)",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\ud83d\udeb4 Join me for a scenic ride on the Chapman Loop in Boulder! We\u2019ll climb the forested gravel road up Chapman Drive, descend Flagstaff Road, and explore Boulder\u2019s bike paths.\n\ud83d\udd5a **Start:** 11:00 AM. Please arrive early so we\u2019re ready to roll!\n\ud83d\udccd **Location:** Boulder, CO\n\ud83d\udccf **Distance:** Approximately 14 miles\n\u26f0\ufe0f **Elevation gain:** Approximately 1,600 feet\n\ud83e\udea8 **Terrain:** 30% gravel and 70% pavement\n\ud83d\udcaa **Difficulty:** Intermediate, with a sustained climb and a steep paved descent\n\ud83c\udd7f\ufe0f **Parking/meeting location:** Main Library, Boulder Public Library District\n\ud83c\udf92 Bring a helmet, water, snacks, layers, and supplies to fix a flat. A gravel or mountain bike is recommended.\n\ud83d\uddfa\ufe0f **Route overview:** [Chapman\u2013Cassiopeia Loop](https://www.gravelbikeadventures.com/route/chapman-cassiopeia-loop)\n\ud83d\udcf2 **Download our route:** [Ride with GPS](https://ridewithgps.com/routes/54228769)",
+  "URL": "https://www.meetup.com/denverfun/events/317364492/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261110T030405Z",
+  "LAST-MODIFIED": "20261110T030405Z",
   "CLASS": "PUBLIC"
  }
 ]
