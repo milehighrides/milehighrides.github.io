@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317341431@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261112T125453Z",
-  "DTSTART": [
-   "2026-11-12T22:30",
-   false
-  ],
-  "DTEND": [
-   "2026-11-13T01:30",
-   false
-  ],
-  "SUMMARY": "Morrison Adventure with Diane",
-  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**10:30 AM INT- H2 SW: 25 - 30 miles, 2300 gain**, Diane Short Meet across from the gas station at Morrison Rd. and Rooney Rd (C-470). Ride through Bear Creek Lake Park, then west into the 2 neighborhoods that are between the Hiway 285 frontage road and Belleview, continue to Willow Springs, Ken Caryl neighborhoods with a rest stop at the S. Valley rest area. Return via the C-470 and Dutch Creek bike paths. RSVP to 303-271-9642 (land). I AM NOT ON MEETUP!!",
-  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317341431/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261108T163944Z",
-  "LAST-MODIFIED": "20261108T163944Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317393305@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261112T125453Z",
+  "DTSTAMP": "20261113T125244Z",
   "DTSTART": [
    "2026-11-15T11:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317393362@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261112T125453Z",
+  "DTSTAMP": "20261113T125244Z",
   "DTSTART": [
    "2026-11-17T11:00",
    false
