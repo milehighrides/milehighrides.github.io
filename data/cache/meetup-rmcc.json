@@ -2,7 +2,7 @@
  {
   "UID": "event_317378056@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-14T09:45",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317390768@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-17T17:30",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317390791@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-17T17:30",
    false
@@ -62,7 +62,7 @@
  {
   "UID": "event_317378073@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-21T09:45",
    false
@@ -82,7 +82,7 @@
  {
   "UID": "event_317348670@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-22T19:00",
    false
@@ -102,7 +102,7 @@
  {
   "UID": "event_317292675@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-24T17:30",
    false
@@ -122,7 +122,7 @@
  {
   "UID": "event_317292691@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-24T17:30",
    false
@@ -142,7 +142,7 @@
  {
   "UID": "event_317378057@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-11-28T09:45",
    false
@@ -162,7 +162,7 @@
  {
   "UID": "event_317389953@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-12-01T17:30",
    false
@@ -182,7 +182,7 @@
  {
   "UID": "event_317389973@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125245Z",
+  "DTSTAMP": "20261114T123624Z",
   "DTSTART": [
    "2026-12-01T17:30",
    false

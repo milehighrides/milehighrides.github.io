@@ -2,7 +2,7 @@
  {
   "UID": "event_317393305@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125244Z",
+  "DTSTAMP": "20261114T123623Z",
   "DTSTART": [
    "2026-11-15T11:00",
    false
@@ -20,9 +20,29 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317417376@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261114T123623Z",
+  "DTSTART": [
+   "2026-11-17T10:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-17T12:30",
+   false
+  ],
+  "SUMMARY": "Lin's Birthday Ride",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\nTuesday, November 17\n\n10:30 AM Leisure- H1-20 miles SW Join Patty Gaspar (303-618-5069) for a ride to celebrate Lin Hark's birthday! Meet at Grant Frontier Park (2300 S Platte River Dr). We will ride south on the South Platte Trail to Chatfield, take a break near the dog park in the trees then ride back for lunch at the Table Public House. Yes, Lin will be riding!",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317417376/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261113T214933Z",
+  "LAST-MODIFIED": "20261113T214933Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317393362@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261113T125244Z",
+  "DTSTAMP": "20261114T123623Z",
   "DTSTART": [
    "2026-11-17T11:00",
    false

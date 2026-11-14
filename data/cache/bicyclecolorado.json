@@ -20,6 +20,66 @@
  },
  {
   "DTSTART": [
+   "2026-11-15T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-15T12:00",
+   false
+  ],
+  "DTSTAMP": "20261113T225619Z",
+  "CREATED": "20261113T225236Z",
+  "LAST-MODIFIED": "20261113T225619Z",
+  "UID": "10001818-1794740400-1794744000@bicyclecolorado.org",
+  "SUMMARY": "World Day of Remembrance in Boulder",
+  "DESCRIPTION": "This World Day of Remembrance event will provide a platform for road traffic victims and their families, city and county officials, and community members to memorialize those lost while drawing attention to the community\u2019s and City of Boulder\u2019s commitment to Vision Zero. The event will be outside in front of the downtown Boulder County Courthouse. We will begin with remarks from several speakers, then begin a memorial walk ending at the Glen Huntington Bandshell. \nThis event is hosted by It Could Be Me in partnership with the City of Boulder. Learn more: World Day of Remembrance for Road Traffic Victims in the US.",
+  "URL": "https://bicyclecolorado.org/event/world-day-of-remembrance-in-boulder/",
+  "LOCATION": "Boulder County Courthouse, 1325 Pearl St., Boulder, 80302, United States",
+  "CATEGORIES": "Community, Outreach, Advocacy & Festivals",
+  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/11/WDoR2023-logo-transparent.webp"
+ },
+ {
+  "DTSTART": [
+   "2026-11-15T14:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-15T15:30",
+   false
+  ],
+  "DTSTAMP": "20261113T225731Z",
+  "CREATED": "20261113T224939Z",
+  "LAST-MODIFIED": "20261113T225731Z",
+  "UID": "10001817-1794751200-1794756600@bicyclecolorado.org",
+  "SUMMARY": "World Remembrance for Road Crash Victims - El Paso County",
+  "DESCRIPTION": "Local safe streets advocates invite the community to meet on the steps of City Hall in Colorado Springs to remember road crash victims and families directly impacted.\n\nWe will have brief remarks from speakers, families and victims of road crash violence, and will read names of those lost.\nWe encourage attendees to utilize public transit, carpool, walk, bicycle, or roll to the event. A PikeRide hub is located nearby (southeast side of City Hall).\nAll are welcome to attend.\n\nThanks to the efforts of People Centered Colorado Springs (https://www.peoplecenteredcos.org/), the originator of this event held since 2023.\nThank you to Beautiful Colorado Springs, COS Cars Kill, and Bike Colorado Springs for endorsing this event.\nGratitude to Dave Gardner with Studio 809 Podcasts for providing audio support, and thanks to the volunteers who are helping to make this remembrance event possible.\n\nRead more about #worlddayofremembrance at https://wdor-usa.org/",
+  "URL": "https://bicyclecolorado.org/event/world-remembrance-for-road-crash-victims-el-paso-county/",
+  "LOCATION": "Colorado Springs City Hall, 107 N Nevada Ave, Colorado Springs, 80903, United States",
+  "CATEGORIES": "Community, Outreach, Advocacy & Festivals",
+  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/11/WDoR2023-logo-transparent.webp"
+ },
+ {
+  "DTSTART": [
+   "2026-11-15T16:15",
+   false
+  ],
+  "DTEND": [
+   "2026-11-15T17:30",
+   false
+  ],
+  "DTSTAMP": "20261113T225540Z",
+  "CREATED": "20261113T225540Z",
+  "LAST-MODIFIED": "20261113T225540Z",
+  "UID": "10001819-1794759300-1794763800@bicyclecolorado.org",
+  "SUMMARY": "World Day of Remembrance Vigil in Greeley",
+  "DESCRIPTION": "History, Community Leaders, Major asks, Remarks from family members, Vigil",
+  "URL": "https://bicyclecolorado.org/event/world-day-of-remembrance-vigil-in-greeley/",
+  "LOCATION": "Greeley Recreation Center, 651 10th Ave, Greeley, 80631, United States",
+  "CATEGORIES": "Community, Outreach, Advocacy & Festivals",
+  "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/11/WDoR2023-logo-transparent.webp"
+ },
+ {
+  "DTSTART": [
    "2026-11-18T07:30",
    false
   ],
@@ -196,6 +256,25 @@
   "LOCATION": "Colorado Springs, CO",
   "CATEGORIES": "Community, Outreach, Advocacy & Festivals,Group Rides,Road",
   "ATTACH": "https://bicyclecolorado.org/wp-content/uploads/2026/09/ChasingSanta2023-008-1.webp"
+ },
+ {
+  "DTSTART": [
+   "2026-12-05T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-05T13:00",
+   false
+  ],
+  "DTSTAMP": "20261113T223144Z",
+  "CREATED": "20261113T223144Z",
+  "LAST-MODIFIED": "20261113T223144Z",
+  "UID": "10001816-1796468400-1796475600@bicyclecolorado.org",
+  "SUMMARY": "Citywide Bike Bus Rally",
+  "DESCRIPTION": "Event Details \n\nDate: Saturday, December 5, 2026\nTime: 11:00 AM \u2013 1:00 PM (Volunteer setup begins at 10:30 AM)\nLocation: La Alma Recreation Center, 1325 W 11th Avenue\n\nWhat\u2019s Happening & Partners Participating: \n\nHelmet Decorating & Giveaways: Thanks to CALC micro-grant funding, MBAC will host a reflective sticker station where kids can decorate their helmets. We\u2019ll also be giving away reflective spoke beads and bike lights.\nBike Bus Organizers: Leaders from Steck, Park Hill, Brown, Odyssey, and Edison will be on hand to share route maps, show photos of Bike Buses in action, and answer questions.\nDenver Health\u2019s Injury Prevention Team: On-site giving away free helmets.\nDenver Parks & Recreation Alternative Sports: Tabling with community resources.\nDenver Food Rescue: Providing snacks for the event.\nBike Streets: Tabling to share tips on navigating Denver safely by bike.\nBikes Together: (Tentative) Hosting a bike tune-up/safety clinic.\nGroup Ride: MBAC will host a group ride from Cheesman Park to Lincoln Park before the event.",
+  "URL": "https://bicyclecolorado.org/event/citywide-bike-bus-rally/",
+  "LOCATION": "La Alma Recreation Center, 1325 W 11th Avenue, Denver, 80204, United States",
+  "CATEGORIES": "Community, Outreach, Advocacy & Festivals"
  },
  {
   "DTSTART": [
