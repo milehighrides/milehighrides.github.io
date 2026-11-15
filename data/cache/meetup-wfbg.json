@@ -2,7 +2,7 @@
  {
   "UID": "event_317329239@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-11-16T10:00",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317365925@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-11-17T10:00",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317366056@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-11-17T12:15",
    false
@@ -62,7 +62,7 @@
  {
   "UID": "event_317374568@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-11-18T11:00",
    false
@@ -80,9 +80,49 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317436941@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261115T123751Z",
+  "DTSTART": [
+   "2026-11-24T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-24T12:30",
+   false
+  ],
+  "SUMMARY": "Ladies' Lunch at Breckenridge Brewery & Optional Walk",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!\nLet's get together for a fun and relaxing lunch at **Breckenridge Brewery on Tuesday, November 24th, at 11:00 AM!**\nAfter lunch, for anyone who would like to join, we'll enjoy a leisurely 20\u201330 minute walk along the trail, heading either north or south.\"After lunch, whoever would like to can join us for a short, leisurely 20\u201330 minute walk along the trail, either north or south. No pressure, just a nice, easy stroll to enjoy some fresh air and good company! **And just to be clear, this is a lunch and walking outing only\u2014no biking this time!\ud83d\ude0a** And, of course, we'll stick to the walking trail and stay off the bike trail as much as possible. After all, you know those darn bikers might run us over! \ud83d\ude02\ud83d\udeb4\u200d\u2640\ufe0f\n\nTake a peek at the brewery's menu ahead of time and see if something catches your eye!\n\nLooking forward to a wonderful lunch, some laughs, and a little walk with you ladies!\n**Vicky E.**",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317436941/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261115T055935Z",
+  "LAST-MODIFIED": "20261115T055935Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317436576@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261115T123751Z",
+  "DTSTART": [
+   "2026-11-25T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-25T13:30",
+   false
+  ],
+  "SUMMARY": "A Scenic Ride to LoHi \u2013 Lunch, Laughs & Ice Cream!",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies,\nJoin us for a fun and scenic ride along the Platte River Trail into Denver's charming LoHi neighborhood, where we'll enjoy lunch/coffee at a cute little Italian caf\u00e9, with an optional ice cream treat afterward!\n\n**Please Note:** **This ride is intended for E-bike riders and advanced traditional cyclists due to the distance and pace.**\n\n**Distance:** Approximately 18 miles round trip\n**Pace:** Usually around 15 mph, sometimes a little faster.\n**Date:** Wednesday, November 25\n**Meeting Time:** 11:00 AM\n**Wheels Rolling:** 11:15 AM\n\nWe'll meet in the parking lot of Bout Time Pub & Grub and head north along the beautiful South Platte River Trail toward downtown Denver. Along the way, we'll cross over I-25 on the 16th Street pedestrian bridge, which is a really neat part of this ride!\nOnce we arrive in Denver's charming Highland (LoHi) neighborhood, we'll stop for lunch at Maci Caf\u00e9, a cute little Italian caf\u00e9 offering delicious panini sandwiches, including prosciutto, smoked salmon, and spicy coppa. They also serve salads, quiches, breakfast sandwiches, burritos, freshly brewed coffee, and espresso drinks. There should be something for everyone!\nAfter we've enjoyed our lunch, snack, or coffee, anyone who would like a little something sweet can join us for an optional stop at Little Man Ice Cream, just a short distance away! We can walk or ride our bikes over for a delicious treat before heading back.\n\n**Locking our Bikes:**\nThere are metal fences surrounding some trees right in front of the caf\u00e9 where we should be able to lock our bikes, so **please remember to bring your bike locks!**\n\n**It may be a little chilly, so please dress accordingly and consider bringing an extra layer to stay comfortable during our ride!\"**\n\n**A Few Important Reminders**\nAs a courtesy to your fellow riders, please keep your RSVP current.\n\n**Please private message me your cell phone number if you haven't already done so, and I'll be happy to send you mine.**\n\n**Also, please have your emergency contact person's name and phone number clearly labeled** **inside your helmet. Thanks!!**\n\n**Safety:** This is a participate-at-your-own-risk event. By signing up, you acknowledge that you are solely responsible for your own safety and enjoyment.\n\nPlease feel free to message me or leave a comment if you have any questions.\n\nLooking forward to a beautiful ride, some good food, lots of laughs, and maybe even a little ice cream with you ladies!\nVicky E.",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317436576/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261115T044527Z",
+  "LAST-MODIFIED": "20261115T044527Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -102,7 +142,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -120,29 +160,9 @@
   "CLASS": "PUBLIC"
  },
  {
-  "UID": "event_302296589@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
-  "DTSTART": [
-   "2026-12-31T19:00",
-   false
-  ],
-  "DTEND": [
-   "2026-12-31T21:00",
-   false
-  ],
-  "SUMMARY": "Would anyone like to lead a ride, walk, see a movie, walk, kayak etc.& when...?",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nIf you would like to lead an event please text on the **\"Comments** **\"** what type of event you would like to do and also the date and time you would like to do it. That way members will be able to suggest/lead a meetup on any day, weekend or evening and see who might want to go on it and discuss details on it by typing that in the **\"Comments\"** section. (The date of this total meet up will be noted as far off future date from now just so it stays up so pay no attention to the date) But do type in the day you would like to lead/go on a ride or other type of meetup and then you can discuss it on this meetup where it says **\"Comments\"**. There you will be able to see who might be interested in this/these meetups. Again any questions feel free to discuss on this meetup comments. (or private message me also if you want).\n**It will show me as the host but it will actually be whoever decides on the meetup or by group discussion.**\n**FYI: I may or may not participate in it even though it shows I am the host. Reason being there is no way for me to take it off ( being a host).**\n\nWe will still have regular meetups but incase you want to just add a meetup this is another way to get together for a fun meetup. Any member will be able to do this.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/302296589/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240717T204320Z",
-  "LAST-MODIFIED": "20240717T204320Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -162,7 +182,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
+  "DTSTAMP": "20261115T123751Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -177,26 +197,6 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20240415T192016Z",
   "LAST-MODIFIED": "20240415T192016Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_300630382@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261114T123625Z",
-  "DTSTART": [
-   "2039-01-01T01:00",
-   false
-  ],
-  "DTEND": [
-   "2039-01-01T03:00",
-   false
-  ],
-  "SUMMARY": "WEEKEND RIDERS - Communicating and contacting other  Members~RSVP if interested!",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Weekend Bikers!!,\n\nLet other members know if you would like to bike on the weekends by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride on the weekends and make plans to ride. In addition, if a member wants to be an Event Organizer to plan weekend bike rides just let me know. But, in the meantime, this is a great meetup to find out and communicate with other bikers who would like to ride on weekends.\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630382/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240425T051434Z",
-  "LAST-MODIFIED": "20240425T051434Z",
   "CLASS": "PUBLIC"
  }
 ]
