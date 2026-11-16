@@ -1,28 +1,28 @@
 [
  {
-  "UID": "event_317393305@meetup.com",
+  "UID": "event_317443155@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123749Z",
+  "DTSTAMP": "20261116T145004Z",
   "DTSTART": [
-   "2026-11-15T11:00",
+   "2026-11-16T11:00",
    false
   ],
   "DTEND": [
-   "2026-11-15T14:00",
+   "2026-11-16T13:00",
    false
   ],
-  "SUMMARY": "Mellow Winter INT Ride with Donald",
-  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**11:00 AM INT H2-NW-25-+1075\u2019 elevation gain.** Mellow Winter ride Crown Hill Park \u2013 26th and Garland St. Ride with GPS link: [https://ridewithgps.com/routes/57694914?via=o2HAsi274dZk9ZDdWI1Ckw](https://ridewithgps.com/routes/57694914?via=o2HAsi274dZk9ZDdWI1Ckw)\nParking can be limited in Crown Hill so you can park behind Illegal Pete's just west of Kipling. Just ride back to the ride start. See link: [https://maps.app.goo.gl/XPGBX2u9QKa68mTY8](https://maps.app.goo.gl/XPGBX2u9QKa68mTY8).\nThe pace will be Mellow Intermediate with regrouping to keep everyone together. Please gather at the restroom to meet your ride guide. Rain or wet roads will cancel. Call or text me with questions. Donald Schmertz @ 720-785-0616",
-  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317393305/",
+  "SUMMARY": "Monday ride with Simone",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n11:00 AM FUN PLUS-H2-26 miles NW Meet Simone Caruthers (720-636-2884) at Anderson Park (44th & Field) for a ride west on the Clear Creek Trail to the Peak to Plains Trail, which we take to the new trailhead. After a break at the trailhead, we will return via the same route.",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317443155/",
   "STATUS": "CONFIRMED",
-  "CREATED": "20261112T063856Z",
-  "LAST-MODIFIED": "20261112T063856Z",
+  "CREATED": "20261115T183949Z",
+  "LAST-MODIFIED": "20261115T183949Z",
   "CLASS": "PUBLIC"
  },
  {
   "UID": "event_317417376@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123749Z",
+  "DTSTAMP": "20261116T145004Z",
   "DTSTART": [
    "2026-11-17T10:30",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317393362@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123749Z",
+  "DTSTAMP": "20261116T145004Z",
   "DTSTART": [
    "2026-11-17T11:00",
    false

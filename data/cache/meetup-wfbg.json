@@ -2,7 +2,7 @@
  {
   "UID": "event_317329239@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-16T10:00",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317365925@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-17T10:00",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317366056@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-17T12:15",
    false
@@ -62,7 +62,7 @@
  {
   "UID": "event_317374568@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-18T11:00",
    false
@@ -80,9 +80,29 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317446801@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261116T145005Z",
+  "DTSTART": [
+   "2026-11-23T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-23T12:30",
+   false
+  ],
+  "SUMMARY": "\ud83c\udf2e The Long-Awaited El Tejado Mexican Restaurant Is FINALLY OPEN!! \ud83c\udf89",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies,\nLet's meet on **Monday, November 23rd, at 11:00 am** for some delicious Mexican food, wonderful conversation, and a fun afternoon with friends!\nThe restaurant is absolutely beautiful, and it even has a large, gorgeous patio! I can't wait for us to see it and experience this long-awaited restaurant together!\n\nIf I don't already have your cell phone number, please send it to me, and I'll gladly send you mine!\nLooking forward to seeing everyone there!!\n\n**See you there, amigas!!** \ud83c\udf2e\ud83d\udc83\ud83c\udf89\nVicky E.",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317446801/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261116T010009Z",
+  "LAST-MODIFIED": "20261116T010009Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317436941@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-24T11:00",
    false
@@ -92,7 +112,7 @@
    false
   ],
   "SUMMARY": "Ladies' Lunch at Breckenridge Brewery & Optional Walk",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!\nLet's get together for a fun and relaxing lunch at **Breckenridge Brewery on Tuesday, November 24th, at 11:00 AM!**\nAfter lunch, for anyone who would like to join, we'll enjoy a leisurely 20\u201330 minute walk along the trail, heading either north or south.\"After lunch, whoever would like to can join us for a short, leisurely 20\u201330 minute walk along the trail, either north or south. No pressure, just a nice, easy stroll to enjoy some fresh air and good company! **And just to be clear, this is a lunch and walking outing only\u2014no biking this time!\ud83d\ude0a** And, of course, we'll stick to the walking trail and stay off the bike trail as much as possible. After all, you know those darn bikers might run us over! \ud83d\ude02\ud83d\udeb4\u200d\u2640\ufe0f\n\nTake a peek at the brewery's menu ahead of time and see if something catches your eye!\n\nLooking forward to a wonderful lunch, some laughs, and a little walk with you ladies!\n**Vicky E.**",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!\nLet's get together for a fun and relaxing lunch at **Breckenridge Brewery on Tuesday, November 24th, at 11:00 AM!**\nAfter lunch, for anyone who would like to join, we'll enjoy a leisurely 20\u201330 minute walk along the trail, heading either north or south. No pressure, just a nice, easy stroll to enjoy some fresh air and good company! **And just to be clear, this is a lunch and walking outing only\u2014no biking this time!\ud83d\ude0a** And, of course, we'll stick to the walking trail and stay off the bike trail as much as possible. After all, you know those darn bikers might run us over! \ud83d\ude02\ud83d\udeb4\u200d\u2640\ufe0f\n\nTake a peek at the brewery's menu ahead of time and see if something catches your eye!\n\nLooking forward to a wonderful lunch, some laughs, and a little walk with you ladies!\n**Vicky E.**",
   "URL": "https://www.meetup.com/womens-fun-biking-group/events/317436941/",
   "STATUS": "CONFIRMED",
   "CREATED": "20261115T055935Z",
@@ -102,7 +122,7 @@
  {
   "UID": "event_317436576@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-11-25T11:00",
    false
@@ -120,9 +140,29 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317445700@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261116T145005Z",
+  "DTSTART": [
+   "2026-11-28T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-28T13:30",
+   false
+  ],
+  "SUMMARY": "\ud83c\udf2e Mexican Lunch, Lakewood Walk & a Little Playground Fun! \ud83d\udedd",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!!\nLet's get together for a delicious Mexican lunch at **Jaime's Mexican Restaurant on Saturday, November 28th, at 11:00 AM!** **PLEASE NOTE:** There are two Jaime's Mexican Restaurants with Denver addresses, so please be sure to go to the **Jaime's on Depew Street!** Although it has a Denver mailing address, it is actually located in Lakewood, very close to the Denver city limits. We don't want anyone ending up at the wrong Jaime's! \ud83d\ude02 (By the way, Jaime's is pronounced \"Hi-may's.\") The food there is delicious! This will be a wonderful opportunity to relax, chat, laugh, and get to know each other a little better!\n\nAfter lunch, for those who would like to join in, we'll head over to beautiful **Kendrick Lake Park**, located at 9351 West Jewell Avenue, Lakewood, CO 80232. Which is just 2.4 miles west of Jaime's on Jewell Avenue.\nWe'll enjoy a leisurely walk around the pretty lake, which is approximately one mile around. Our pace will be nice and casual, taking about 30 minutes to complete the loop. No rushing, just enjoying the scenery and each other's company! **Remember, we're meeting for lunch at Jaime's first, NOT at the park!**\n\nAnd for those who are feeling a little playful, we might even have some fun on the playground swings and slides! After all, **who says playgrounds are just for kids?** \ud83d\ude02\n**Both the walk and playground fun are completely optional!** You're more than welcome to join us for lunch only.\n\n**A Little Reminder:** If I don't already have your cell phone number, please send it to me in private message, and I'll gladly send you mine. Thanks!!\nLooking forward to a fun afternoon with you ladies!\n\n**See you there!!**\nVicky E.",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317445700/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261115T224516Z",
+  "LAST-MODIFIED": "20261115T224516Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -142,7 +182,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
+  "DTSTAMP": "20261116T145005Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -157,46 +197,6 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261105T060142Z",
   "LAST-MODIFIED": "20261105T060142Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_304704393@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
-  "DTSTART": [
-   "2027-03-29T18:00",
-   false
-  ],
-  "DTEND": [
-   "2027-03-29T20:00",
-   false
-  ],
-  "SUMMARY": "Helpful Healthy Tips from Our Very Own Members - Food, Exercise, Etc.",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nThis is not an event and it does not have a start date but you can start now.\n**This meetup is just a place where members can type in the comments any healthy helpful ideas they would like to share that has perhaps helped them become a more healthier person. Please feel free to type this in the \"Start the Conversation\" area. Members can also ask questions about the tips if they need further info., or they can ask a general question about health and whoever has info on that can respond to it. Thanks!**\n**Vicky**",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/304704393/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20241122T065424Z",
-  "LAST-MODIFIED": "20241122T065424Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_300436019@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261115T123751Z",
-  "DTSTART": [
-   "2029-01-01T13:00",
-   false
-  ],
-  "DTEND": [
-   "2029-01-01T14:00",
-   false
-  ],
-  "SUMMARY": "Want to sell, buy, ask questions  about any type of services, etc. Site.  ",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Bikers,\n\nThis is not a ride but a useful source by members to ask other members info they might need about anything on biking or about anything else.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nThese are some example of the different types of question that you could ask if you needed help with something or information (give or get):\n\nDoes anyone have a bike to buy or sell?\nDoes anyone have a (fill in the blank) they want to sell or buy?\nDo you know a good financial planner?\nDoes anyone know how to fix such and such on a bike?\nDoes anyone know the best product to clean your white handle bar wraps with?\nDo you know of any good baby sitters?\nDoes anyone want to go to a certain concert in the park?\nDoes anyone know how to work a Garmin bike computer?\nDoes anyone want to go on a particular ride?\nDoes the trail to Downtown still have detours?\nOr anything else.\n\nSo questions might be anything and everything to or from our brilliant, informative, and pretty cool biking members.\n\nSo just type any questions on the comment section.\n\nI hope this will be helpful!!\n\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300436019/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240415T192016Z",
-  "LAST-MODIFIED": "20240415T192016Z",
   "CLASS": "PUBLIC"
  }
 ]
