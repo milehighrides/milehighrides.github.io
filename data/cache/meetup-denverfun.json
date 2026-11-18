@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317364861@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
-  "DTSTART": [
-   "2026-11-17T18:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-17T22:00",
-   false
-  ],
-  "SUMMARY": "\ud83c\udfd3 Pickleball Social \u2013 All Levels Welcome! Make New Friends with Zhen !",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.**\n\nwe\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n\\#\\#\\# \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* we usually meet on courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n* Text Zhen @ +19706319482 if you have any questions\n\n\\#\\#\\# \ud83d\udd52 When\n\n* Come when you can, leave when you must.\n\n\\#\\#\\# \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n* [ ] **Snacks to Share with Friends and Socialize**\n\n\\> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
-  "URL": "https://www.meetup.com/denverfun/events/317364861/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261110T035130Z",
-  "LAST-MODIFIED": "20261110T035130Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_316942686@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-18T15:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317198594@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-18T17:45",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317198350@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-18T18:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_317363459@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-18T19:00",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317361932@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-19T17:15",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_317364865@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-19T18:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_317403400@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-20T09:30",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_316246102@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-20T10:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_317228358@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261117T125222Z",
+  "DTSTAMP": "20261118T125710Z",
   "DTSTART": [
    "2026-11-20T17:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261031T232704Z",
   "LAST-MODIFIED": "20261031T232704Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317004820@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261118T125710Z",
+  "DTSTART": [
+   "2026-11-20T19:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-20T22:00",
+   false
+  ],
+  "SUMMARY": "\ud83c\udf05Sunset Salchata: FREE Friday Salsa & Bachata at Cheesman Pavilion with Zhen!",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\ud83c\udf05\ud83d\udc83\ud83d\udd7a\nHey Denver dancers! \ud83d\udc83\ud83d\udd7a\nJoin \\*\\*Zhen\\*\\* for a beautiful \\*\\*Friday Sunset Salchata\\*\\* at the scenic Cheesman Pavilion!\n\nEnjoy outdoor dancing with great music, fresh air, and a welcoming crowd.\n\\#\\#\\# \\*\\*\ud83d\udcc5 Friday \u2013Sunset Salchata with Zhen\\*\\*\n\n\\- \\*\\*7:00 \u2013 8:00 PM\\*\\* \u2013 Beginner Salsa/Bachata Class \\(Feel free to join the lessons; Instructors will be there to teach you for free\\, so come solo or with friends to learn\\)\nBut the Beginner Salsa / Bachata Class at 7 PM will still run strong with experienced dancers helping lead!\n\n\\- \\*\\*8:00 \u2013 10:00 PM\\*\\* \u2013 Salsa & Bachata Social\n\\*\\*Note from Zhen:\\*\\* I\u2019ll most likely join starting at the social from \\*\\*8\u201310 PM\\*\\* (I have pickleball right beforehand, but I'll try to get there to say hello),\n\n\\*\\*Location:\\*\\*\nCheesman Pavilion (Cheesman Park)\nDenver, CO\n\\*\\*Cost:\\*\\* Completely \\*\\*FREE\\*\\* as always!\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Comfortable Shoes:** Sneakers or smooth-soled shoes you can easily spin in.\n* [ ] **Water / Hydration:** Stay hydrated while we dance!\n* [ ] **A Light Jacket:** It can get chilly once the sun goes down!\n* [ ] **Your Friends:** Spread the word and help Zhen grow this awesome community.\n* [ ] **Snacks to share with Friends and socializing:**\n\n\\#\\#\\# \ud83d\udcf2 Stay Connected\n\nhttps://chat.whatsapp.com/CpvxC9PP8vsCOVDXL2uCzk?mode=gi_t\n\n\\> **Please RSVP here** so Zhen knows rough numbers and can look out for you. If you have any questions, message Zhen directly. See you at the pavilion! \ud83d\udc83\ud83d\udd7a\u2728\n\n**Categories:** Dance \\| Salsa & Bachata \\| Outdoor Activities \\| Socializing & Making Friends \\| Friday Night Socials",
+  "URL": "https://www.meetup.com/denverfun/events/317004820/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261016T013710Z",
+  "LAST-MODIFIED": "20261016T013710Z",
   "CLASS": "PUBLIC"
  }
 ]
