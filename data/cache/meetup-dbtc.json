@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "UID": "event_317495338@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125942Z",
+  "DTSTART": [
+   "2026-11-22T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-22T14:00",
+   false
+  ],
+  "SUMMARY": "Fall INT Ride with Donald",
+  "DESCRIPTION": "Denver Bicycle Touring Club  - DBTC\n**11:00 AM Intermediate H2-NW-25-+1075\u2019 elevation gain**. Crown Hill Park \u2013 26th and Garland St. Ride with GPS link:\n[https://ridewithgps.com/routes/57905924?via=oFuXKnJ0M2ybVGh9JUvKLg](https://ridewithgps.com/routes/57905924?via=oFuXKnJ0M2ybVGh9JUvKLg)\nParking can be limited in Crown Hill so you can park behind Illegal Pete's just west of Kipling. Just ride back to the ride start. See link.\n[https://maps.app.goo.gl/XPGBX2u9QKa68mTY8](https://maps.app.goo.gl/XPGBX2u9QKa68mTY8).\nThe pace will be Intermediate with regrouping to keep everyone together. Please gather at the restroom to meet your ride guide. Rain or wet roads will cancel. Text me with questions. Donald \u2013 720-785-0616",
+  "URL": "https://www.meetup.com/denver-bicycle-touring-club/events/317495338/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261119T090403Z",
+  "LAST-MODIFIED": "20261119T090403Z",
+  "CLASS": "PUBLIC"
+ }
+]

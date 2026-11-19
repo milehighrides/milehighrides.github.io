@@ -1,88 +1,8 @@
 [
  {
-  "UID": "event_316942686@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
-  "DTSTART": [
-   "2026-11-18T15:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-18T21:00",
-   false
-  ],
-  "SUMMARY": "35 years of adoption",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nCome celebrate 35 years of adoption with me and make fun dyi projects like a wallet or a wall painting. afterwards let's grab dinner and drinks and dance the night away.",
-  "URL": "https://www.meetup.com/denverfun/events/316942686/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261012T025258Z",
-  "LAST-MODIFIED": "20261012T025258Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_317198594@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
-  "DTSTART": [
-   "2026-11-18T17:45",
-   false
-  ],
-  "DTEND": [
-   "2026-11-18T19:15",
-   false
-  ],
-  "SUMMARY": "Running Group - Belleview Elementary School and Cherry Creek State Park",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**When and where**\nWe **leave** the Belleview Elementary School parking lot at **5:45 PM**, so please try to arrive a few minutes before then. If you are running late or can't find us, leave a comment or send a DM!\n\n**Pace and distance**\nOur typical run is around 4.5 miles at a steady 9-11:00 minute/mile pace. However, this varies depending on who shows up!\n\n**Group size**\nWe usually have around 5-10 people attend, depending on the weather and season. Many of us have been coming for years; some people come every week, while others come less frequently.\n\n**About us**\nThis is a small, dedicated running group that's been meeting consistently for several years (formerly under Colorado Runs). We're a friendly, tight-knit group that welcomes new members who are looking to make friends, train for races, or find consistent running partners.\n\nCome join us if this sounds like a good fit for your running goals! We look forward to meeting you!",
-  "URL": "https://www.meetup.com/denverfun/events/317198594/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261029T235510Z",
-  "LAST-MODIFIED": "20261029T235510Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_317198350@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
-  "DTSTART": [
-   "2026-11-18T18:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-18T22:00",
-   false
-  ],
-  "SUMMARY": "\ud83c\udfd3 Mid-Week Pickleball Social \u2013 with Zhen. All Levels Welcome! Make New Friends ",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.** Every Wednesday night, we\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n### \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* Usually courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Head to the **higher courts at the very top**. Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n\n### \ud83d\udd52 When\n\n* **Every Wednesday Night!**\n* Come when you can, leave when you must.\n\n### \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n### \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n\n> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
-  "URL": "https://www.meetup.com/denverfun/events/317198350/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261029T232247Z",
-  "LAST-MODIFIED": "20261029T232247Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_317363459@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
-  "DTSTART": [
-   "2026-11-18T19:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-18T21:00",
-   false
-  ],
-  "SUMMARY": "The Grizzly \ud83c\udf39 Line Dance Lessons",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n* **7:00 PM:** Line Dancing Lesson ($5 admission, includes live music entry) if you bring cash the line goes quicker.\n* **8:00 PM:** Live band/music and open dancing on the main floor. *(Alternative: Skip the lesson and join the main floor at 8:00 PM).*\n* **Post-Class:** Country Swing Class available for an additional $10.00 (partners provided if you don't have one).\n* **Parking:** Free on-site parking available.\n\nAll levels are welcome the lessons are a mix of newbies and regulars.\nWebsite: https://grizzlyrose.com/",
-  "URL": "https://www.meetup.com/denverfun/events/317363459/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261110T004709Z",
-  "LAST-MODIFIED": "20261110T004709Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317361932@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-19T17:15",
    false
@@ -102,7 +22,7 @@
  {
   "UID": "event_317364865@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-19T18:00",
    false
@@ -122,7 +42,7 @@
  {
   "UID": "event_317403400@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-20T09:30",
    false
@@ -142,7 +62,7 @@
  {
   "UID": "event_316246102@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-20T10:00",
    false
@@ -162,7 +82,7 @@
  {
   "UID": "event_317228358@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-20T17:00",
    false
@@ -182,7 +102,7 @@
  {
   "UID": "event_317004820@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125944Z",
   "DTSTART": [
    "2026-11-20T19:00",
    false
@@ -197,6 +117,86 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261016T013710Z",
   "LAST-MODIFIED": "20261016T013710Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317364492@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125944Z",
+  "DTSTART": [
+   "2026-11-21T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-21T14:00",
+   false
+  ],
+  "SUMMARY": "Let's Bike Chapman Loop Gravel(14.9 mi)",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\ud83d\udeb4 Join me for a scenic ride on the Chapman Loop in Boulder! We\u2019ll climb the forested gravel road up Chapman Drive, descend Flagstaff Road, and explore Boulder\u2019s bike paths.\n\ud83d\udd5a **Start:** 11:00 AM. Please arrive early so we\u2019re ready to roll!\n\ud83d\udccd **Location:** Boulder, CO\n\ud83d\udccf **Distance:** Approximately 14 miles\n\u26f0\ufe0f **Elevation gain:** Approximately 1,600 feet\n\ud83e\udea8 **Terrain:** 30% gravel and 70% pavement\n\ud83d\udcaa **Difficulty:** Intermediate, with a sustained climb and a steep paved descent\n\ud83c\udd7f\ufe0f **Parking/meeting location:** Main Library, Boulder Public Library District\n\ud83c\udf92 Bring a helmet, water, snacks, layers, and supplies to fix a flat. A gravel or mountain bike is recommended.\n\ud83d\uddfa\ufe0f **Route overview:** [Chapman\u2013Cassiopeia Loop](https://www.gravelbikeadventures.com/route/chapman-cassiopeia-loop)\n\ud83d\udcf2 **Download our route:** [Ride with GPS](https://ridewithgps.com/routes/54228769)",
+  "URL": "https://www.meetup.com/denverfun/events/317364492/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261110T030405Z",
+  "LAST-MODIFIED": "20261110T030405Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317351015@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125944Z",
+  "DTSTART": [
+   "2026-11-22T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-22T13:00",
+   false
+  ],
+  "SUMMARY": "\ud83d\udd25 Step It Up @ Red Rocks + Lunch Social! (FREE) \ud83d\udcaa",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**Ready to shake up your workout routine with epic views?** \u26f0\ufe0f\ud83d\udcaa\n\nJoin us for a **FREE Sunday workout at Red Rocks Amphitheatre!** Tackle the famous steps, meet new workout buddies, and enjoy the views! \ud83d\ude0e\n\n\u2728 **We create the space\u2014you bring the energy!** Come solo or bring friends. Let's **step it up, sweat it out, and connect!**\n\n\ud83c\udfc3\u200d\u2640\ufe0f\ud83d\udcaa **YOUR WORKOUT, YOUR PACE!**\nClimb stairs, jog, squat, stretch, or do yoga\u2014whatever gets you moving! Team up or go solo!\n\n\ud83d\ude4c **All fitness levels welcome!** No competition (okay, maybe a little! \ud83d\ude09), just motivation and good company!\n\n\ud83d\udc65 **LIMITED SPOTS!** Plans change? No worries! Just update your RSVP early so someone else can join. Reliable RSVPs get priority! \ud83d\ude4c\n\n\ud83d\udccd **MEETING LOCATION & PARKING**\n\u26f0\ufe0f **Red Rocks Amphitheatre**\n\n\ud83d\udccd **Meet:** Upper Plaza picnic tables, near the concession stands at the top of the stairs.\n\n\ud83d\ude97 **Park:** Upper North Lot (follow the location pin \ud83d\udccd). If inaccessible, use another open lot. **Parking is FREE!**\n\n\ud83d\udd5a **SCHEDULE**\n\n\ud83d\udc4b **11:00\u201311:15 AM \\| Meet & Greet \\+ Stretch**\n\n\ud83d\udcaa **11:15 AM\u201312:15 PM \\| Workout Time**\n\n\ud83e\udd6a **12:15\u20131:00 PM \\| Optional Lunch Social**\nBYO lunch or something to share! Mingle, munch & refuel! \ud83d\ude0b I\u2019ll bring hot water\u2014BYO mug, tea bag or hot cocoa mix! \u2615 **No glass containers.**\n\n\ud83c\udf92 **WHAT TO BRING**\n\ud83d\udca7Water & workout shoes\n\ud83e\udde5 Layers for Colorado weather\n\ud83e\uddd8\u200d\u2640\ufe0f Yoga mat or resistance bands (optional)\n\ud83e\udd6a Lunch & drink (optional)\n\u2615 Mug (no glass) & tea bag or hot chocolate mix (optional)\n\n\ud83c\udf26\ufe0f **WEATHER & RED ROCKS PERMITTING**\nAbove 40\u00b0F, dry, ice-free, venue open, and enough RSVPs? We're on! \u2600\ufe0f\ud83d\ude4c",
+  "URL": "https://www.meetup.com/denverfun/events/317351015/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261109T040220Z",
+  "LAST-MODIFIED": "20261109T040220Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317139296@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125944Z",
+  "DTSTART": [
+   "2026-11-23T18:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-23T22:00",
+   false
+  ],
+  "SUMMARY": "\ud83c\udfd3 Pickleball Social \u2013 All Levels Welcome! Make New Friends with Zhen !",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.**\n\nwe\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n\\#\\#\\# \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* we usually meet on courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n* Text Zhen @ +19706319482 if you have any questions\n\n\\#\\#\\# \ud83d\udd52 When\n\n* Come when you can, leave when you must.\n\n\\#\\#\\# \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n* [ ] **Snacks to Share with Friends and Socialize**\n\n\\> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
+  "URL": "https://www.meetup.com/denverfun/events/317139296/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261026T004722Z",
+  "LAST-MODIFIED": "20261026T004722Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317140251@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125944Z",
+  "DTSTART": [
+   "2026-11-23T18:50",
+   false
+  ],
+  "DTEND": [
+   "2026-11-23T20:00",
+   false
+  ],
+  "SUMMARY": "\ud83d\udc83 Gym Squad | FREE Zumba \ud83c\udfb6 (Denver)",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**\ud83d\udc83 LET\u2019S DANCE, SWEAT & HAVE FUN! \ud83c\udfb6\ud83d\udd25**\n\nNo dance experience needed! Just bring water, good vibes, and your best moves! Come solo or bring friends! **\ud83d\ude4c**\n\n**\u2728 We create the space \u2014 you bring the energy!**\n\n**\ud83d\udd56 Mondays @ 7 PM |** Aerobics Room\n**\ud83d\udc4b Meet @ 6:50 PM** by the couches across from the front desk.\n\n**\ud83c\udf9f\ufe0f FREE GUEST PASSES!**\n**First-time visitors:** Grab your [FREE 1-Day Trial Pass](https://vasafitness.com/trial/) on Monday! It's valid for 24 hours after activation, so don't activate it too early!\n\n\ud83d\udc49 Select **VASA (Jewell & Sheridan)** when registering.\n\n\ud83d\udcf1 Bring a photo ID! VASA will text your pass. No text? The front desk can look you up by phone number.\n\n\ud83d\udcaa **Want to join VASA?**\nSave on membership with my referral link!\nhttps://vasa.fitness/swzb4vtv\n\n**\u2728 MORE THAN JUST ZUMBA!**\n\nCome early or stay after to enjoy:\n\n\ud83c\udfca Pool & hot tub | \ud83e\uddd6 Sauna & steam room\n\ud83c\udfc0 Basketball | \ud83c\udfcb\ufe0f Gym equipment\n\n\u26a0\ufe0f Some amenities and classes may be restricted with the free guest pass.\n\n\ud83d\udc65 **Limited spots!** Plans change? No worries! Just update your RSVP early so someone else can join. Reliable RSVPs get priority! \ud83d\ude4c",
+  "URL": "https://www.meetup.com/denverfun/events/317140251/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261026T022834Z",
+  "LAST-MODIFIED": "20261026T022834Z",
   "CLASS": "PUBLIC"
  }
 ]

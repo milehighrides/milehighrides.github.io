@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317374568@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
-  "DTSTART": [
-   "2026-11-18T10:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-18T13:00",
-   false
-  ],
-  "SUMMARY": "A Beautiful Ride to Golden - Peaks to Plains Trail - Lunch at Cafe 13",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!\n**E-Bikers and Advanced Classical Bike Riders**\n**Please Note:** **Due to the steep hills and riding pace, this ride is recommended for E-bike riders and advanced traditional (non-electric) cyclists.**\n\nLet's meet at **Prospect Lake at 10:00 AM**, with wheels rolling by 10:15 AM!\nWe'll head to Golden and enjoy the beautiful **Peaks to Plains Trail** along Clear Creek. From Golden, we'll continue west along the scenic trail, passing the Clear Creek Trailhead before making our way to the Huntsman Trailhead. The final 1.5-mile section has officially opened just within the last few days, making this an especially exciting ride!\nThe scenery along this stretch is absolutely stunning, and I'm excited for everyone to experience it!\n\nOn our way back, we'll head to **Caf\u00e9 13 in Golden** for a delicious lunch. It's just a few bike-friendly blocks from the trail. They have a wonderful outdoor patio and several convenient options for parking our bikes. We can lock them up at a nearby bike rack or, if we prefer, keep them close by at the outdoor patio tables. Indoor dining is also available. And best of all, the food is fantastic! It's a great place to relax, enjoy a delicious meal, and visit together.\nAfter lunch, we'll hop back on our bikes and enjoy the trail for our return ride.\n\n**A Few Ride Details:**\n\n* **Meeting Time:** 10:00 AM (departing at 10:15 AM)\n* **Location:** Prospect Lake\n* **Distance:** Approximately 25 miles\n* **Pace:** Around 15 mph\n* **Lunch:** Caf\u00e9 13 in Golden\n*\n\n**A Couple of Safety Reminders:**\nPlease send me your cell phone number, and I'll share mine with you so we can stay in touch in case plans change.\nAlso, please make sure your emergency contact's name and phone number are clearly written inside your helmet. Hopefully, we will never need it, but it's always good to be prepared!\n\nIt's going to be a beautiful ride with gorgeous scenery, great food, and even better company! I'm looking forward to a fun day with all of you!\n**See you there!**\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317374568/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261110T231926Z",
-  "LAST-MODIFIED": "20261110T231926Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317446801@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-11-23T11:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317436941@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-11-24T11:00",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317436576@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-11-25T11:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_317445700@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-11-28T11:00",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_300630382@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261118T125710Z",
+  "DTSTAMP": "20261119T125943Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20240425T051434Z",
   "LAST-MODIFIED": "20240425T051434Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_300630407@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261119T125943Z",
+  "DTSTART": [
+   "2039-01-01T01:00",
+   false
+  ],
+  "DTEND": [
+   "2039-01-01T03:00",
+   false
+  ],
+  "SUMMARY": "EVENING  RIDERS - Communicating and contacting other Members~RSVP if interested!",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Evening Bikers!!,\n\nLet other members know if you would like to bike in the evenings by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride in the evening and make plans to ride. In addition, if a member wants to be an Event Organizer to plan evening bike rides just let me know. But, in the meantime, this is a great meetup post to find out and communicate with other bikers who would like to ride on evenings.\nVicky E.",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630407/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20240425T052042Z",
+  "LAST-MODIFIED": "20240425T052042Z",
   "CLASS": "PUBLIC"
  }
 ]
