@@ -2,13 +2,13 @@
  {
   "UID": "event_317495338@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261119T125942Z",
+  "DTSTAMP": "20261120T125603Z",
   "DTSTART": [
    "2026-11-22T11:00",
    false
   ],
   "DTEND": [
-   "2026-11-22T14:00",
+   "2026-11-22T13:00",
    false
   ],
   "SUMMARY": "Fall INT Ride with Donald",

@@ -1,26 +1,6 @@
 [
  {
   "DTSTART": [
-   "2026-11-19T19:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-19T21:00",
-   false
-  ],
-  "DTSTAMP": "20260518T161040Z",
-  "CREATED": "20260518T161040Z",
-  "LAST-MODIFIED": "20260518T161040Z",
-  "UID": "10001247-1795114800-1795122000@bicyclecolorado.org",
-  "SUMMARY": "Colorado Springs Bike Party",
-  "DESCRIPTION": "A casual group ride around Colorado Springs. Route is relatively flat, ~6 miles. No drop, easy pace with a few regroup spots along the ride.\nWe are here to promote visibility, inclusivity, and creativity in the cycling community. Everyone who welcomes everyone is welcome to join.\nBring your friends, bring your wheels, and bring the good vibes.\nWe meet at Cocktails After Dusk, downtown COS, 8 E. Bijou St., 7 pm Ride rolls out at 7:30 pm",
-  "URL": "https://bicyclecolorado.org/event/colorado-springs-bike-party/2026-11-19/",
-  "LOCATION": "Colorado Springs, CO",
-  "CATEGORIES": "Group Rides",
-  "ORGANIZER": "MAILTO:csbikeparty@gmail.com"
- },
- {
-  "DTSTART": [
    "2026-11-21",
    true
   ],
