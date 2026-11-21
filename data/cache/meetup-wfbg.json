@@ -2,7 +2,7 @@
  {
   "UID": "event_317446801@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-11-23T11:00",
    false
@@ -22,7 +22,7 @@
  {
   "UID": "event_317436941@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-11-24T11:00",
    false
@@ -42,7 +42,7 @@
  {
   "UID": "event_317436576@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-11-25T11:00",
    false
@@ -62,7 +62,7 @@
  {
   "UID": "event_317445700@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-11-28T11:00",
    false
@@ -82,7 +82,7 @@
  {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -100,9 +100,29 @@
   "CLASS": "PUBLIC"
  },
  {
+  "UID": "event_317517442@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261121T124344Z",
+  "DTSTART": [
+   "2026-12-03T11:00",
+   false
+  ],
+  "DTEND": [
+   "2026-12-03T12:30",
+   false
+  ],
+  "SUMMARY": "Scenic Mini Hike at Clear Creek Canyon \u2013 New Dirt Trail & Suspension Bridges!",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\n**Meeting Place:** Huntsman Trailhead, Clear Creek Canyon\n**Meeting Time:** 11:00 AM\n**Walk Begins:** 11:15 AM\n**Walking Distance:** Approximately 1 mile round trip, following a loop that includes dirt trails, a stop by Clear Creek, and a paved trail back to Huntsman Trailhead\n**Estimated Time:** 1 hour to 1 1/2 hour, including our break by the creek\n**Optional Lunch:** Caf\u00e9 13 in Golden, after the walk\n**Rating:** Could be considered Moderate to Challenging (See below description)\\*\n\n**Hello Everyone!**\nWho's ready for a beautiful adventure on a brand-new mini dirt hiking trail through spectacular Clear Creek Canyon near Golden!\nWe'll be exploring a newly opened dirt loop trail starting from the **Huntsman Trailhead area along Clear Creek Canyon**. We will be surrounded by gorgeous canyon scenery, beautiful rock formations, and wonderful views of Clear Creek!\n\n**\\*A Little Adventure Along the Way!**\nAlthough this is a relatively short walk, **this is not your typical easy, flat walking trail!** There are some steep sections, uneven dirt and rocky surfaces, and some rather large man-made rock steps, a few approximately 2 feet high! These steps are at the beginning and the end of the trail. There are also some steep ledges and drop-offs along portions of the trail, and many areas do not have railings. **So please keep that in mind when deciding whether this adventure is right for you.**\n\n**My hubby and I walked this trail earlier**, and I was able to do it, although I did need a little help from him at times, especially navigating some of those larger steps. So, depending on our comfort levels, **we may need to give each other a helping hand here and there!**\n\nWalking sticks or hiking poles may be helpful, especially for those who like a little extra stability.\n\n**Highlights of Trail**\nOne of the highlights, besides the beautiful scenery of our adventure will be crossing **two suspension bridges**, including the beautiful **Promising Prospects Bridge**! After crossing the bridge, we'll make our way down toward the creek, where we can sit on some rocks, take a little break, relax, and enjoy watching and listening to the water. What a beautiful place to spend a little time!\n\n**Optional Lunch at Caf\u00e9 13 in Golden!**\nAfter our walk, for those who would like to join us, we'll hop in our cars and drive over to Caf\u00e9 13 in Golden for an optional lunch and some more fun conversation.\n\n**This is a participate-at-your-own-risk event. By signing up, you acknowledge that you are solely responsible for your own safety.**\n\n**If you haven't already sent me your cell phone number, please send it to me in a private message, and I'll be happy to send you mine!**\n**Also, please send me the name and phone number of your emergency contact, or you can give me that information when we meet for the walk.**\nThanks so much! \ud83d\ude0a\n\nLooking forward to enjoying this beautiful new trail with everyone!\nSee you there!\n\n**Vicky E.** \ud83d\ude0a",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317517442/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261120T192658Z",
+  "LAST-MODIFIED": "20261120T192658Z",
+  "CLASS": "PUBLIC"
+ },
+ {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -122,7 +142,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -142,7 +162,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -162,7 +182,7 @@
  {
   "UID": "event_300630382@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
+  "DTSTAMP": "20261121T124344Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
@@ -177,26 +197,6 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20240425T051434Z",
   "LAST-MODIFIED": "20240425T051434Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_300630407@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261120T125604Z",
-  "DTSTART": [
-   "2039-01-01T01:00",
-   false
-  ],
-  "DTEND": [
-   "2039-01-01T03:00",
-   false
-  ],
-  "SUMMARY": "EVENING  RIDERS - Communicating and contacting other Members~RSVP if interested!",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Evening Bikers!!,\n\nLet other members know if you would like to bike in the evenings by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride in the evening and make plans to ride. In addition, if a member wants to be an Event Organizer to plan evening bike rides just let me know. But, in the meantime, this is a great meetup post to find out and communicate with other bikers who would like to ride on evenings.\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630407/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20240425T052042Z",
-  "LAST-MODIFIED": "20240425T052042Z",
   "CLASS": "PUBLIC"
  }
 ]
