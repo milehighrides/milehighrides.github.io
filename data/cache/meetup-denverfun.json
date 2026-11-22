@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317364492@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
-  "DTSTART": [
-   "2026-11-21T11:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-21T14:00",
-   false
-  ],
-  "SUMMARY": "Let's Bike Chapman Loop Gravel(14.9 mi)",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\ud83d\udeb4 Join me for a scenic ride on the Chapman Loop in Boulder! We\u2019ll climb the forested gravel road up Chapman Drive, descend Flagstaff Road, and explore Boulder\u2019s bike paths.\n\ud83d\udd5a **Start:** 11:00 AM. Please arrive early so we\u2019re ready to roll!\n\ud83d\udccd **Location:** Boulder, CO\n\ud83d\udccf **Distance:** Approximately 14 miles\n\u26f0\ufe0f **Elevation gain:** Approximately 1,600 feet\n\ud83e\udea8 **Terrain:** 30% gravel and 70% pavement\n\ud83d\udcaa **Difficulty:** Intermediate, with a sustained climb and a steep paved descent\n\ud83c\udd7f\ufe0f **Parking/meeting location:** Main Library, Boulder Public Library District\n\ud83c\udf92 Bring a helmet, water, snacks, layers, and supplies to fix a flat. A gravel or mountain bike is recommended.\n\ud83d\uddfa\ufe0f **Route overview:** [Chapman\u2013Cassiopeia Loop](https://www.gravelbikeadventures.com/route/chapman-cassiopeia-loop)\n\ud83d\udcf2 **Download our route:** [Ride with GPS](https://ridewithgps.com/routes/54228769)",
-  "URL": "https://www.meetup.com/denverfun/events/317364492/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261110T030405Z",
-  "LAST-MODIFIED": "20261110T030405Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317351015@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-22T11:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317504220@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-22T11:00",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317139296@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-23T18:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_317140251@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-23T18:50",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317491968@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-24T18:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_317291626@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-25T17:45",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_316835398@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-25T18:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_313784701@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-25T20:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_317364884@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261121T124344Z",
+  "DTSTAMP": "20261122T124259Z",
   "DTSTART": [
    "2026-11-26T18:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261110T035521Z",
   "LAST-MODIFIED": "20261110T035521Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317516898@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261122T124259Z",
+  "DTSTART": [
+   "2026-11-27T09:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-27T12:00",
+   false
+  ],
+  "SUMMARY": "Friday Caffeine and Coworkers",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\u2615 End the week somewhere better than your kitchen table.\nEvery Friday we take over a corner of a local coffee shop, grab a good drink, and get real work done side by side. Bring your laptop, your to-do list, or the project you keep promising yourself you'll finish. \ud83d\udcbb Remote workers, freelancers, founders, grad students, and anyone with a flexible Friday are welcome.\n\n\ud83d\udee0\ufe0f HOW IT WORKS\n\u2615 Arrive, order something, and say hi\n\ud83c\udfa7 Please respect anyone with headphones on and keep interruptions to a minimum.\n\ud83c\udfaf Optional: share one thing you want to finish today, then check in on it before you leave\n\n\ud83d\ude4c WHY COME\nWorking alone all week gets old. A little shared focus makes the hours go faster, and the conversations on breaks tend to be the good kind: what people are building, where they're hiking this weekend, what they're reading, what they're working through. \ud83d\udcda\ud83e\udd7e\nIt's also the easiest way to meet the group if you haven't made it to a hike or pickleball night yet. No need to be \"on.\" Show up, do your thing, and connect when it feels natural. \ud83e\udd1d\n\n\ud83d\udcac Our WhatsApp community is invite-only, and invites happen in person. Come say hi and ask your organizer to add you!\n\n\ud83d\udcdd A FEW NOTES\n\ud83e\uddfe Please buy something. The shop is sharing its space with us, so let's be great guests.\n\ud83c\udfa7 Please respect anyone with headphones on and keep interruptions to a minimum.\n\ud83d\udeaa Come and go as your day needs. Stay for an hour or the whole session.\n\ud83d\udeab This is coworking, not networking. Leave the pitch and the business cards at home and just get to know people.\n\ud83d\udcde Take calls outside so everyone else can stay focused.\n\n\ud83c\udfd4\ufe0f Lots of us head into the weekend with plans to get outside, so if you're looking for a trail or ski buddy for Saturday, this is a good place to find one. \u26f7\ufe0f See you Friday! \u2615\u2728",
+  "URL": "https://www.meetup.com/denverfun/events/317516898/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261120T190917Z",
+  "LAST-MODIFIED": "20261120T190917Z",
   "CLASS": "PUBLIC"
  }
 ]
