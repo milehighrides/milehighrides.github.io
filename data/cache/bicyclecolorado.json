@@ -1,25 +1,6 @@
 [
  {
   "DTSTART": [
-   "2026-11-21",
-   true
-  ],
-  "DTEND": [
-   "2026-11-23",
-   true
-  ],
-  "DTSTAMP": "20260914T210455Z",
-  "CREATED": "20260914T210317Z",
-  "LAST-MODIFIED": "20260914T210455Z",
-  "UID": "10001773-1795219200-1795391999@bicyclecolorado.org",
-  "SUMMARY": "Cross of the North",
-  "DESCRIPTION": "More information coming soon \n\u00a0",
-  "URL": "https://bicyclecolorado.org/event/cross-of-the-north/",
-  "LOCATION": "New Belgium Brewing, 500 Linden St., Fort Collins, 80524, United States",
-  "CATEGORIES": "Cyclocross"
- },
- {
-  "DTSTART": [
    "2026-11-25T07:30",
    false
   ],

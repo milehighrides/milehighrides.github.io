@@ -1,48 +1,8 @@
 [
  {
-  "UID": "event_317351015@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
-  "DTSTART": [
-   "2026-11-22T11:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-22T13:00",
-   false
-  ],
-  "SUMMARY": "\ud83d\udd25 Step It Up @ Red Rocks + Lunch Social! (FREE) \ud83d\udcaa",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**Ready to shake up your workout routine with epic views?** \u26f0\ufe0f\ud83d\udcaa\n\nJoin us for a **FREE Sunday workout at Red Rocks Amphitheatre!** Tackle the famous steps, meet new workout buddies, and enjoy the views! \ud83d\ude0e\n\n\u2728 **We create the space\u2014you bring the energy!** Come solo or bring friends. Let's **step it up, sweat it out, and connect!**\n\n\ud83c\udfc3\u200d\u2640\ufe0f\ud83d\udcaa **YOUR WORKOUT, YOUR PACE!**\nClimb stairs, jog, squat, stretch, or do yoga\u2014whatever gets you moving! Team up or go solo!\n\n\ud83d\ude4c **All fitness levels welcome!** No competition (okay, maybe a little! \ud83d\ude09), just motivation and good company!\n\n\ud83d\udc65 **LIMITED SPOTS!** Plans change? No worries! Just update your RSVP early so someone else can join. Reliable RSVPs get priority! \ud83d\ude4c\n\n\ud83d\udccd **MEETING LOCATION & PARKING**\n\u26f0\ufe0f **Red Rocks Amphitheatre**\n\n\ud83d\udccd **Meet:** Upper Plaza picnic tables, near the concession stands at the top of the stairs.\n\n\ud83d\ude97 **Park:** Upper North Lot (follow the location pin \ud83d\udccd). If inaccessible, use another open lot. **Parking is FREE!**\n\n\ud83d\udd5a **SCHEDULE**\n\n\ud83d\udc4b **11:00\u201311:15 AM \\| Meet & Greet \\+ Stretch**\n\n\ud83d\udcaa **11:15 AM\u201312:15 PM \\| Workout Time**\n\n\ud83e\udd6a **12:15\u20131:00 PM \\| Optional Lunch Social**\nBYO lunch or something to share! Mingle, munch & refuel! \ud83d\ude0b I\u2019ll bring hot water\u2014BYO mug, tea bag or hot cocoa mix! \u2615 **No glass containers.**\n\n\ud83c\udf92 **WHAT TO BRING**\n\ud83d\udca7Water & workout shoes\n\ud83e\udde5 Layers for Colorado weather\n\ud83e\uddd8\u200d\u2640\ufe0f Yoga mat or resistance bands (optional)\n\ud83e\udd6a Lunch & drink (optional)\n\u2615 Mug (no glass) & tea bag or hot chocolate mix (optional)\n\n\ud83c\udf26\ufe0f **WEATHER & RED ROCKS PERMITTING**\nAbove 40\u00b0F, dry, ice-free, venue open, and enough RSVPs? We're on! \u2600\ufe0f\ud83d\ude4c",
-  "URL": "https://www.meetup.com/denverfun/events/317351015/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261109T040220Z",
-  "LAST-MODIFIED": "20261109T040220Z",
-  "CLASS": "PUBLIC"
- },
- {
-  "UID": "event_317504220@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
-  "DTSTART": [
-   "2026-11-22T11:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-22T13:00",
-   false
-  ],
-  "SUMMARY": "Pastries and Coffee",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nAfter a long and busy work week, relax and enjoy the aroma of freshly brewed morning coffee with a sweet bite of your favorite pastry. Take a moment to savor the flavors, embrace the morning, and simply enjoy...",
-  "URL": "https://www.meetup.com/denverfun/events/317504220/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261119T204729Z",
-  "LAST-MODIFIED": "20261119T204729Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317139296@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-23T18:00",
    false
@@ -62,7 +22,7 @@
  {
   "UID": "event_317140251@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-23T18:50",
    false
@@ -82,7 +42,7 @@
  {
   "UID": "event_317491968@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-24T18:00",
    false
@@ -102,7 +62,7 @@
  {
   "UID": "event_317291626@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-25T17:45",
    false
@@ -122,7 +82,7 @@
  {
   "UID": "event_316835398@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-25T18:00",
    false
@@ -142,7 +102,7 @@
  {
   "UID": "event_313784701@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-25T20:00",
    false
@@ -162,7 +122,7 @@
  {
   "UID": "event_317364884@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-26T18:00",
    false
@@ -182,7 +142,7 @@
  {
   "UID": "event_317516898@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261122T124259Z",
+  "DTSTAMP": "20261123T130031Z",
   "DTSTART": [
    "2026-11-27T09:00",
    false
@@ -197,6 +157,46 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261120T190917Z",
   "LAST-MODIFIED": "20261120T190917Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317411331@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261123T130031Z",
+  "DTSTART": [
+   "2026-11-27T09:30",
+   false
+  ],
+  "DTEND": [
+   "2026-11-27T12:30",
+   false
+  ],
+  "SUMMARY": "\ud83d\udcbb Hustle & Huddle | Coworking @ Improper City \u2615",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n**Why work alone when we can hustle together?** \ud83d\ude80\n\n**\u2728 We create the space \u2014 you bring the energy!** Come solo or bring friends, and get ready to focus, connect, and get things done! \ud83d\udcbb\ud83d\ude4c\n\n**\ud83d\udcbb Join us every Friday and finish the week strong!** Whether you're working remotely, studying, job hunting, or tackling a personal project, let's stay motivated, productive, and accountable together!\n\n**\ud83c\udf89 HUSTLE HARD, HUDDLE A LITTLE!**\nNeed a brain break? Grab coffee or breakfast, socialize, stretch your legs by the patio fire pit, or challenge someone to cornhole! \u2615\ud83d\udd25\ud83c\udfaf\n\n\ud83d\udccd **Meeting Spot:** Find us at a communal table near the coffee bar! \ud83d\udcbb\n\n\ud83d\udcbb **Bring:** Laptop, charger, and headphones. Please purchase a drink or bite to support our venue!\n\n\u23f0 **Drop in anytime!** Work at your own pace.\n\n\ud83d\ude97 **Parking:** Street parking nearby. Check posted signs for restrictions or fees.\n\n\ud83d\udc65 **Limited spots!** Plans change? We get it! Please update your RSVP early. **Reliable RSVPs get priority!** \ud83d\ude0a",
+  "URL": "https://www.meetup.com/denverfun/events/317411331/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261113T143511Z",
+  "LAST-MODIFIED": "20261113T143511Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317017355@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261123T130031Z",
+  "DTSTART": [
+   "2026-11-27T19:00",
+   false
+  ],
+  "DTEND": [
+   "2026-11-27T22:00",
+   false
+  ],
+  "SUMMARY": "\ud83c\udf05Sunset Salchata: FREE Friday Salsa & Bachata at Cheesman Pavilion with Zhen!",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\n\ud83c\udf05\ud83d\udc83\ud83d\udd7a\nHey Denver dancers! \ud83d\udc83\ud83d\udd7a\nJoin \\*\\*Zhen\\*\\* for a beautiful \\*\\*Friday Sunset Salchata\\*\\* at the scenic Cheesman Pavilion!\n\nEnjoy outdoor dancing with great music, fresh air, and a welcoming crowd.\n\\#\\#\\# \\*\\*\ud83d\udcc5 Friday \u2013Sunset Salchata with Zhen\\*\\*\n\n\\- \\*\\*7:00 \u2013 8:00 PM\\*\\* \u2013 Beginner Salsa/Bachata Class \\(Feel free to join the lessons; Instructors will be there to teach you for free\\, so come solo or with friends to learn\\)\nBut the Beginner Salsa / Bachata Class at 7 PM will still run strong with experienced dancers helping lead!\n\n\\- \\*\\*8:00 \u2013 10:00 PM\\*\\* \u2013 Salsa & Bachata Social\n\\*\\*Note from Zhen:\\*\\* I\u2019ll most likely join starting at the social from \\*\\*8\u201310 PM\\*\\* (I have pickleball right beforehand, but I'll try to get there to say hello),\n\n\\*\\*Location:\\*\\*\nCheesman Pavilion (Cheesman Park)\nDenver, CO\n\\*\\*Cost:\\*\\* Completely \\*\\*FREE\\*\\* as always!\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Comfortable Shoes:** Sneakers or smooth-soled shoes you can easily spin in.\n* [ ] **Water / Hydration:** Stay hydrated while we dance!\n* [ ] **A Light Jacket:** It can get chilly once the sun goes down!\n* [ ] **Your Friends:** Spread the word and help Zhen grow this awesome community.\n* [ ] **Snacks to share with Friends and socializing:**\n\n\\#\\#\\# \ud83d\udcf2 Stay Connected\n\nhttps://chat.whatsapp.com/CpvxC9PP8vsCOVDXL2uCzk?mode=gi_t\n\n\\> **Please RSVP here** so Zhen knows rough numbers and can look out for you. If you have any questions, message Zhen directly. See you at the pavilion! \ud83d\udc83\ud83d\udd7a\u2728\n\n**Categories:** Dance \\| Salsa & Bachata \\| Outdoor Activities \\| Socializing & Making Friends \\| Friday Night Socials",
+  "URL": "https://www.meetup.com/denverfun/events/317017355/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261016T222523Z",
+  "LAST-MODIFIED": "20261016T222523Z",
   "CLASS": "PUBLIC"
  }
 ]
