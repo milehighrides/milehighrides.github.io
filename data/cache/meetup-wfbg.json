@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317446801@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
-  "DTSTART": [
-   "2026-11-23T11:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-23T12:30",
-   false
-  ],
-  "SUMMARY": "\ud83c\udf2e The Long-Awaited El Tejado Mexican Restaurant Is FINALLY OPEN!! \ud83c\udf89",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies,\nLet's meet on **Monday, November 23rd, at 11:00 am** for some delicious Mexican food, wonderful conversation, and a fun afternoon with friends!\nThe restaurant is absolutely beautiful, and it even has a large, gorgeous patio! I can't wait for us to see it and experience this long-awaited restaurant together!\n\nIf I don't already have your cell phone number, please send it to me, and I'll gladly send you mine!\nLooking forward to seeing everyone there!!\n\n**See you there, amigas!!** \ud83c\udf2e\ud83d\udc83\ud83c\udf89\nVicky E.",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317446801/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261116T010009Z",
-  "LAST-MODIFIED": "20261116T010009Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317436941@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-11-24T11:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317436576@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-11-25T11:00",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317445700@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-11-28T11:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317517442@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-12-03T11:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_300630382@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261123T130031Z",
+  "DTSTAMP": "20261124T130112Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20240425T051434Z",
   "LAST-MODIFIED": "20240425T051434Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_300630407@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261124T130112Z",
+  "DTSTART": [
+   "2039-01-01T01:00",
+   false
+  ],
+  "DTEND": [
+   "2039-01-01T03:00",
+   false
+  ],
+  "SUMMARY": "EVENING  RIDERS - Communicating and contacting other Members~RSVP if interested!",
+  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Evening Bikers!!,\n\nLet other members know if you would like to bike in the evenings by just RSVPing to this meetup post.\n\n**(Do not pay attention to the date, I just have it on there so that the post stays up. So this post is ongoing.)**\n\nMembers can use this page on the comments to communicate with other members who would like to ride in the evening and make plans to ride. In addition, if a member wants to be an Event Organizer to plan evening bike rides just let me know. But, in the meantime, this is a great meetup post to find out and communicate with other bikers who would like to ride on evenings.\nVicky E.",
+  "URL": "https://www.meetup.com/womens-fun-biking-group/events/300630407/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20240425T052042Z",
+  "LAST-MODIFIED": "20240425T052042Z",
   "CLASS": "PUBLIC"
  }
 ]
