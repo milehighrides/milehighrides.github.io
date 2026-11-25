@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317436941@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
-  "DTSTART": [
-   "2026-11-24T11:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-24T12:30",
-   false
-  ],
-  "SUMMARY": "Ladies' Lunch at Breckenridge Brewery & Optional Walk",
-  "DESCRIPTION": "WOMEN'S FUN BIKING/E-BIKING, WALKING & MORE!!\nHello Ladies!\nLet's get together for a fun and relaxing lunch at **Breckenridge Brewery on Tuesday, November 24th, at 11:00 AM!**\nAfter lunch, for anyone who would like to join, we'll enjoy a leisurely 20\u201330 minute walk along the trail, heading either north or south. No pressure, just a nice, easy stroll to enjoy some fresh air and good company! **And just to be clear, this is a lunch and walking outing only\u2014no biking this time!\ud83d\ude0a** And, of course, we'll stick to the walking trail and stay off the bike trail as much as possible. After all, you know those darn bikers might run us over! \ud83d\ude02\ud83d\udeb4\u200d\u2640\ufe0f\n\nTake a peek at the brewery's menu ahead of time and see if something catches your eye!\n\nLooking forward to a wonderful lunch, some laughs, and a little walk with you ladies!\n**Vicky E.**",
-  "URL": "https://www.meetup.com/womens-fun-biking-group/events/317436941/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261115T055935Z",
-  "LAST-MODIFIED": "20261115T055935Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317436576@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2026-11-25T11:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317445700@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2026-11-28T11:00",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_316886713@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2026-12-01T11:50",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_317517442@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2026-12-03T11:00",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317295755@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2026-12-10T11:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_304704393@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2027-03-29T18:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_300436019@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2029-01-01T13:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_300630382@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_300630407@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261124T130112Z",
+  "DTSTAMP": "20261125T130615Z",
   "DTSTART": [
    "2039-01-01T01:00",
    false
