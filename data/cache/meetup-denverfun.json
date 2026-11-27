@@ -1,28 +1,8 @@
 [
  {
-  "UID": "event_317364884@meetup.com",
-  "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
-  "DTSTART": [
-   "2026-11-26T18:00",
-   false
-  ],
-  "DTEND": [
-   "2026-11-26T22:00",
-   false
-  ],
-  "SUMMARY": "\ud83c\udfd3 Pickleball Social \u2013 All Levels Welcome! Make New Friends with Zhen !",
-  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nReady to swap the couch for the court and make some awesome new friends?\nWhether you\u2019re a total beginner who just bought a paddle, an intermediate looking for a regular crew, or a seasoned expert ready to show off your spin, **this is your spot.**\n\nwe\u2019re gathering for casual, social, and fun pickleball. No pressure, no judgment\u2014just good vibes and great games.\n\n\\#\\#\\# \ud83d\udccd Where to Find Us\n\n* **Location:** Southpark Pickleball Complex\n* we usually meet on courts 18 and 19\n* **Address:** 400 W County Line Road, Highlands Ranch, CO 80129 *(Easy to find on GPS)*\n* **Exact Spot:** Look for Zhen and a group of friendly people holding paddles near the courts or under the shade structures! Read comments to see what courts we are on.\n* Text Zhen @ +19706319482 if you have any questions\n\n\\#\\#\\# \ud83d\udd52 When\n\n* Come when you can, leave when you must.\n\n\\#\\#\\# \ud83d\udc5f What to Expect\n\n* **19 Outdoor Courts:** Plenty of space to play. Courts 18 & 19 are drop-in play, stack paddle play\n* **All Skill Levels Welcome:** We love mixing beginners and intermediates to keep it social, but we can also set up competitive games for the experts.\n* **Open Rotation:** We\u2019ll rotate players after games so everyone gets a chance to play and meet new people.\n* **First-Come, First-Served:** The courts are public and unreserved, so flexibility is the name of the game!\n\n\\#\\#\\# \ud83c\udf92 What to Bring\n\n* [ ] **Your Paddle** (If you don't have one, message us\u2014someone might have a spare! I usually have a spare)\n* [ ] **Water / Hydration**\n* [ ] **Sunscreen & Hat** (Safety first!)\n* [ ] **A Good Attitude**\n* [ ] **Snacks to Share with Friends and Socialize**\n\n\\> **\u26a0\ufe0f Quick Note:** There\u2019s no official court sign-up needed\u2014just show up! However, **please RSVP here** so we can track rough numbers and know how many courts to claim.\n\nGot questions? Drop a comment or message Zhen directly. See you on the courts! \ud83c\udfd3\u2600\ufe0f\n\n**Categories:** Sports & Fitness \\| Pickleball \\| Outdoor Activities \\| Socializing & Making Friends",
-  "URL": "https://www.meetup.com/denverfun/events/317364884/",
-  "STATUS": "CONFIRMED",
-  "CREATED": "20261110T035521Z",
-  "LAST-MODIFIED": "20261110T035521Z",
-  "CLASS": "PUBLIC"
- },
- {
   "UID": "event_317516898@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-27T09:00",
    false
@@ -42,7 +22,7 @@
  {
   "UID": "event_317411331@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-27T09:30",
    false
@@ -62,7 +42,7 @@
  {
   "UID": "event_317017355@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-27T19:00",
    false
@@ -82,7 +62,7 @@
  {
   "UID": "event_316571265@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-28T10:00",
    false
@@ -102,7 +82,7 @@
  {
   "UID": "event_317462085@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-29T06:00",
    false
@@ -122,7 +102,7 @@
  {
   "UID": "event_316136921@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-29T15:00",
    false
@@ -142,7 +122,7 @@
  {
   "UID": "event_317139299@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-30T18:00",
    false
@@ -162,7 +142,7 @@
  {
   "UID": "event_317140253@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-11-30T18:50",
    false
@@ -182,7 +162,7 @@
  {
   "UID": "event_317390281@meetup.com",
   "SEQUENCE": "1",
-  "DTSTAMP": "20261126T130415Z",
+  "DTSTAMP": "20261127T125958Z",
   "DTSTART": [
    "2026-12-01T18:00",
    false
@@ -197,6 +177,26 @@
   "STATUS": "CONFIRMED",
   "CREATED": "20261112T011438Z",
   "LAST-MODIFIED": "20261112T011438Z",
+  "CLASS": "PUBLIC"
+ },
+ {
+  "UID": "event_317241635@meetup.com",
+  "SEQUENCE": "1",
+  "DTSTAMP": "20261127T125958Z",
+  "DTSTART": [
+   "2026-12-01T18:45",
+   false
+  ],
+  "DTEND": [
+   "2026-12-01T20:45",
+   false
+  ],
+  "SUMMARY": "Monthly Jackbox Game Night",
+  "DESCRIPTION": "Denver Fun Young Adults 20s to 40s\nI've reached out to Western Sky Bar & Taproom and they've agreed to host us for a monthly Jackbox Party Game night.\n\nJackbox is a collection of party games including drawing, word games, trivia, and more. All you need to bring is your phone, a good attitude, and a sense of humour!\n\nWestern Sky has plenty of parking right on the street so no need to worry about space. They have pizza and pretzels and a wide selection of beer. Come on down and lets have a good time.",
+  "URL": "https://www.meetup.com/denverfun/events/317241635/",
+  "STATUS": "CONFIRMED",
+  "CREATED": "20261101T174446Z",
+  "LAST-MODIFIED": "20261101T174446Z",
   "CLASS": "PUBLIC"
  }
 ]
